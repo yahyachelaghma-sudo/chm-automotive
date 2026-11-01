@@ -1,0 +1,177 @@
+[
+  {
+    "id": "b564995c",
+    "type": "amende",
+    "date": "2026-07-12",
+    "voiture_id": "changan-x5-at-plus",
+    "voiture": "Changan X5 AT Plus",
+    "reservation": "CHM-0001",
+    "client": "Meriem Slimani",
+    "telephone": "0697 16 92 86",
+    "description": "Excès de vitesse constaté par radar",
+    "lieu": "RN 5, Boumerdès",
+    "reference": "PV-2026-48213",
+    "montant": 2000,
+    "refacture": 2000,
+    "cout_paye": true,
+    "refacture_encaisse": true,
+    "statut": "regle",
+    "photos": [],
+    "cree_le": "2026-10-31T16:25:35",
+    "par": "Samir Haddad",
+    "historique": [
+      {
+        "le": "2026-10-31T16:25:35",
+        "par": "Samir Haddad",
+        "action": "Incident enregistré"
+      },
+      {
+        "le": "2026-10-31T16:25:35",
+        "par": "Samir Haddad",
+        "action": "statut : ouvert → regle"
+      },
+      {
+        "le": "2026-10-31T16:25:35",
+        "par": "Samir Haddad",
+        "action": "coût payé par l'agence"
+      },
+      {
+        "le": "2026-10-31T16:25:35",
+        "par": "Samir Haddad",
+        "action": "refacturation encaissée"
+      }
+    ]
+  },
+  {
+    "id": "c54add92",
+    "type": "dommage",
+    "date": "2026-07-20",
+    "voiture_id": "audi-a3-chine",
+    "voiture": "Audi A3 (Chine)",
+    "reservation": "CHM-0002",
+    "client": "Yacine Benali",
+    "telephone": "0597 81 83 54",
+    "description": "Rayure sur le pare-chocs arrière au retour",
+    "lieu": "Agence Alger Centre",
+    "reference": "",
+    "montant": 18000,
+    "refacture": 12000,
+    "cout_paye": true,
+    "refacture_encaisse": false,
+    "statut": "en_cours",
+    "photos": [],
+    "cree_le": "2026-10-31T16:25:35",
+    "par": "Samir Haddad",
+    "historique": [
+      {
+        "le": "2026-10-31T16:25:35",
+        "par": "Samir Haddad",
+        "action": "Incident enregistré"
+      },
+      {
+        "le": "2026-10-31T16:25:35",
+        "par": "Samir Haddad",
+        "action": "statut : ouvert → en_cours"
+      },
+      {
+        "le": "2026-10-31T16:25:35",
+        "par": "Samir Haddad",
+        "action": "coût payé par l'agence"
+      }
+    ]
+  },
+  {
+    "id": "030080ca",
+    "type": "accident",
+    "date": "2026-08-01",
+    "voiture_id": "geely-coolray-beyond-pro",
+    "voiture": "Geely Coolray Beyond Pro",
+    "reservation": "CHM-0003",
+    "client": "Amine Belkacem",
+    "telephone": "0528 87 87 49",
+    "description": "Accrochage léger au stationnement, constat amiable signé",
+    "lieu": "Hydra, Alger",
+    "reference": "CA-7741",
+    "montant": 45000,
+    "refacture": 30000,
+    "cout_paye": false,
+    "refacture_encaisse": false,
+    "statut": "ouvert",
+    "photos": [],
+    "cree_le": "2026-10-31T16:25:35",
+    "par": "Samir Haddad",
+    "historique": [
+      {
+        "le": "2026-10-31T16:25:35",
+        "par": "Samir Haddad",
+        "action": "Incident enregistré"
+      }
+    ]
+  },
+  {
+    "id": "6443ac6e",
+    "type": "panne",
+    "date": "2026-07-25",
+    "voiture_id": "audi-q3-chine",
+    "voiture": "Audi Q3 (Chine)",
+    "reservation": "CHM-0004",
+    "client": "Farid Aouadi",
+    "telephone": "0761 48 37 84",
+    "description": "Batterie déchargée, dépannage sur place",
+    "lieu": "Blida",
+    "reference": "",
+    "montant": 6000,
+    "refacture": 0,
+    "cout_paye": true,
+    "refacture_encaisse": false,
+    "statut": "regle",
+    "photos": [],
+    "cree_le": "2026-10-31T16:25:35",
+    "par": "Samir Haddad",
+    "historique": [
+      {
+        "le": "2026-10-31T16:25:35",
+        "par": "Samir Haddad",
+        "action": "Incident enregistré"
+      },
+      {
+        "le": "2026-10-31T16:25:35",
+        "par": "Samir Haddad",
+        "action": "statut : ouvert → regle"
+      },
+      {
+        "le": "2026-10-31T16:25:35",
+        "par": "Samir Haddad",
+        "action": "coût payé par l'agence"
+      }
+    ]
+  },
+  {
+    "id": "02ef016e",
+    "type": "amende",
+    "date": "2026-07-24",
+    "voiture_id": "jetour-x70-luxury-plus",
+    "voiture": "Jetour X70 Luxury Plus",
+    "reservation": "CHM-0005",
+    "client": "Farid Slimani",
+    "telephone": "0645 61 24 75",
+    "description": "Stationnement interdit",
+    "lieu": "Alger Centre",
+    "reference": "PV-2026-51877",
+    "montant": 1500,
+    "refacture": 1500,
+    "cout_paye": false,
+    "refacture_encaisse": false,
+    "statut": "ouvert",
+    "photos": [],
+    "cree_le": "2026-10-31T16:25:35",
+    "par": "Samir Haddad",
+    "historique": [
+      {
+        "le": "2026-10-31T16:25:35",
+        "par": "Samir Haddad",
+        "action": "Incident enregistré"
+      }
+    ]
+  }
+]

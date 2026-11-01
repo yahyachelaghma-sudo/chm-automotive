@@ -1,0 +1,4986 @@
+[
+  {
+    "numero": "CHM-0001",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-07-04T14:34:00",
+    "voiture_id": "changan-x5-at-plus",
+    "voiture": "Changan X5 AT Plus",
+    "date_debut": "2026-07-10",
+    "heure_depart": "08:00",
+    "date_fin": "2026-07-12",
+    "heure_retour": "18:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 2,
+    "options": [],
+    "prix": {
+      "location": 17000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [],
+      "total": 17000
+    },
+    "total": 17000,
+    "caution": 90000,
+    "paye": 17000,
+    "caution_recue": false,
+    "notes": "Client fidèle",
+    "client": {
+      "nom": "Slimani",
+      "prenom": "Meriem",
+      "telephone": "0697 16 92 86",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Espèces",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-07-04T14:34:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ]
+  },
+  {
+    "numero": "CHM-0002",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-07-14T08:03:00",
+    "voiture_id": "audi-a3-chine",
+    "voiture": "Audi A3 (Chine)",
+    "date_debut": "2026-07-17",
+    "heure_depart": "08:00",
+    "date_fin": "2026-07-20",
+    "heure_retour": "10:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 3,
+    "options": [
+      "siege"
+    ],
+    "prix": {
+      "location": 33000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [
+        {
+          "nom": "Siège bébé / rehausseur",
+          "montant": 1200
+        }
+      ],
+      "total": 34200
+    },
+    "total": 34200,
+    "caution": 120000,
+    "paye": 34200,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Benali",
+      "prenom": "Yacine",
+      "telephone": "0597 81 83 54",
+      "email": "yacine.benali@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Virement bancaire",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-07-14T08:03:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-07-17T09:30:00"
+  },
+  {
+    "numero": "CHM-0003",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-07-14T12:45:00",
+    "voiture_id": "geely-coolray-beyond-pro",
+    "voiture": "Geely Coolray Beyond Pro",
+    "date_debut": "2026-07-22",
+    "heure_depart": "09:00",
+    "date_fin": "2026-08-01",
+    "heure_retour": "12:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 10,
+    "options": [
+      "assurance"
+    ],
+    "prix": {
+      "location": 90000,
+      "remise": 10,
+      "montant_remise": 9000,
+      "options": [
+        {
+          "nom": "Assurance tous risques",
+          "montant": 15000
+        }
+      ],
+      "total": 96000
+    },
+    "total": 96000,
+    "caution": 100000,
+    "paye": 96000,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Belkacem",
+      "prenom": "Amine",
+      "telephone": "0528 87 87 49",
+      "email": "amine.belkacem@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "CIB",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-07-14T12:45:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ]
+  },
+  {
+    "numero": "CHM-0004",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-07-15T13:16:00",
+    "voiture_id": "audi-q3-chine",
+    "voiture": "Audi Q3 (Chine)",
+    "date_debut": "2026-07-20",
+    "heure_depart": "14:00",
+    "date_fin": "2026-07-25",
+    "heure_retour": "10:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 5,
+    "options": [],
+    "prix": {
+      "location": 65000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [],
+      "total": 65000
+    },
+    "total": 65000,
+    "caution": 150000,
+    "paye": 65000,
+    "caution_recue": false,
+    "notes": "Livraison à l'aéroport, vol AH 1234",
+    "client": {
+      "nom": "Aouadi",
+      "prenom": "Farid",
+      "telephone": "0761 48 37 84",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "CIB",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-07-15T13:16:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-07-20T09:30:00"
+  },
+  {
+    "numero": "CHM-0005",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-07-17T14:14:00",
+    "voiture_id": "jetour-x70-luxury-plus",
+    "voiture": "Jetour X70 Luxury Plus",
+    "date_debut": "2026-07-19",
+    "heure_depart": "08:00",
+    "date_fin": "2026-07-24",
+    "heure_retour": "12:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 5,
+    "options": [],
+    "prix": {
+      "location": 55000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [],
+      "total": 55000
+    },
+    "total": 55000,
+    "caution": 120000,
+    "paye": 55000,
+    "caution_recue": false,
+    "notes": "Demande siège bébé",
+    "client": {
+      "nom": "Slimani",
+      "prenom": "Farid",
+      "telephone": "0645 61 24 75",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Visa",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-07-17T14:14:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-07-19T09:30:00"
+  },
+  {
+    "numero": "CHM-0006",
+    "statut": "annulée",
+    "source": "site",
+    "cree_le": "2026-07-20T15:33:00",
+    "voiture_id": "livan-gx3-pro",
+    "voiture": "Livan GX3 Pro",
+    "date_debut": "2026-07-23",
+    "heure_depart": "08:00",
+    "date_fin": "2026-07-30",
+    "heure_retour": "12:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 7,
+    "options": [
+      "conducteur"
+    ],
+    "prix": {
+      "location": 52500,
+      "remise": 10,
+      "montant_remise": 5250,
+      "options": [
+        {
+          "nom": "Conducteur supplémentaire",
+          "montant": 3500
+        }
+      ],
+      "total": 50750
+    },
+    "total": 50750,
+    "caution": 80000,
+    "paye": 0,
+    "caution_recue": false,
+    "notes": "Demande siège bébé",
+    "client": {
+      "nom": "Lounis",
+      "prenom": "Sofiane",
+      "telephone": "0577 69 27 47",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Chèque",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-07-20T15:33:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ]
+  },
+  {
+    "numero": "CHM-0007",
+    "statut": "terminée",
+    "source": "agence",
+    "cree_le": "2026-07-21T17:05:00",
+    "voiture_id": "mg5",
+    "voiture": "MG MG5",
+    "date_debut": "2026-07-30",
+    "heure_depart": "08:00",
+    "date_fin": "2026-08-02",
+    "heure_retour": "12:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 3,
+    "options": [
+      "livraison"
+    ],
+    "prix": {
+      "location": 22500,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [
+        {
+          "nom": "Livraison et reprise",
+          "montant": 2500
+        }
+      ],
+      "total": 25000
+    },
+    "total": 25000,
+    "caution": 80000,
+    "paye": 25000,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Aouadi",
+      "prenom": "Meriem",
+      "telephone": "0772 96 50 36",
+      "email": "meriem.aouadi@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Chèque",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-07-21T17:05:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-07-30T09:30:00"
+  },
+  {
+    "numero": "CHM-0008",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-07-23T08:49:00",
+    "voiture_id": "volkswagen-passat-pro-chine",
+    "voiture": "Volkswagen Passat Pro (Chine)",
+    "date_debut": "2026-07-29",
+    "heure_depart": "14:00",
+    "date_fin": "2026-08-12",
+    "heure_retour": "12:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 14,
+    "options": [],
+    "prix": {
+      "location": 168000,
+      "remise": 10,
+      "montant_remise": 16800,
+      "options": [],
+      "total": 151200
+    },
+    "total": 151200,
+    "caution": 130000,
+    "paye": 151200,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Aouadi",
+      "prenom": "Bilal",
+      "telephone": "0575 26 31 11",
+      "email": "bilal.aouadi@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Mastercard",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-07-23T08:49:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-07-29T09:30:00"
+  },
+  {
+    "numero": "CHM-0009",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-07-24T14:18:00",
+    "voiture_id": "audi-a3-chine",
+    "voiture": "Audi A3 (Chine)",
+    "date_debut": "2026-07-28",
+    "heure_depart": "10:00",
+    "date_fin": "2026-07-30",
+    "heure_retour": "10:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 2,
+    "options": [
+      "gps",
+      "livraison"
+    ],
+    "prix": {
+      "location": 22000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [
+        {
+          "nom": "GPS",
+          "montant": 600
+        },
+        {
+          "nom": "Livraison et reprise",
+          "montant": 2500
+        }
+      ],
+      "total": 25100
+    },
+    "total": 25100,
+    "caution": 120000,
+    "paye": 25100,
+    "caution_recue": false,
+    "notes": "Client fidèle",
+    "client": {
+      "nom": "Boudiaf",
+      "prenom": "Omar",
+      "telephone": "0546 98 52 47",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "CCP",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-07-24T14:18:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-07-28T09:30:00"
+  },
+  {
+    "numero": "CHM-0010",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-07-27T10:55:00",
+    "voiture_id": "jetour-x70-luxury-plus",
+    "voiture": "Jetour X70 Luxury Plus",
+    "date_debut": "2026-08-04",
+    "heure_depart": "09:00",
+    "date_fin": "2026-08-11",
+    "heure_retour": "10:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 7,
+    "options": [],
+    "prix": {
+      "location": 77000,
+      "remise": 10,
+      "montant_remise": 7700,
+      "options": [],
+      "total": 69300
+    },
+    "total": 69300,
+    "caution": 120000,
+    "paye": 69300,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Zerrouki",
+      "prenom": "Lyes",
+      "telephone": "0753 26 95 52",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Virement bancaire",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-07-27T10:55:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-08-04T09:30:00"
+  },
+  {
+    "numero": "CHM-0011",
+    "statut": "terminée",
+    "source": "agence",
+    "cree_le": "2026-07-27T16:40:00",
+    "voiture_id": "livan-gx3-pro",
+    "voiture": "Livan GX3 Pro",
+    "date_debut": "2026-08-05",
+    "heure_depart": "08:00",
+    "date_fin": "2026-08-07",
+    "heure_retour": "10:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 2,
+    "options": [],
+    "prix": {
+      "location": 15000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [],
+      "total": 15000
+    },
+    "total": 15000,
+    "caution": 80000,
+    "paye": 15000,
+    "caution_recue": false,
+    "notes": "Client fidèle",
+    "client": {
+      "nom": "Ferhat",
+      "prenom": "Nadia",
+      "telephone": "0547 21 31 93",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Visa",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-07-27T16:40:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-08-05T09:30:00"
+  },
+  {
+    "numero": "CHM-0012",
+    "statut": "terminée",
+    "source": "agence",
+    "cree_le": "2026-07-28T08:19:00",
+    "voiture_id": "mg3",
+    "voiture": "MG MG3",
+    "date_debut": "2026-07-29",
+    "heure_depart": "08:00",
+    "date_fin": "2026-08-02",
+    "heure_retour": "12:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 4,
+    "options": [
+      "siege",
+      "assurance"
+    ],
+    "prix": {
+      "location": 22000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [
+        {
+          "nom": "Assurance tous risques",
+          "montant": 6000
+        },
+        {
+          "nom": "Siège bébé / rehausseur",
+          "montant": 1600
+        }
+      ],
+      "total": 29600
+    },
+    "total": 29600,
+    "caution": 60000,
+    "paye": 29600,
+    "caution_recue": false,
+    "notes": "Livraison à l'aéroport, vol AH 1234",
+    "client": {
+      "nom": "Haddad",
+      "prenom": "Yasmine",
+      "telephone": "0523 39 39 90",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Mastercard",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-07-28T08:19:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-07-29T09:30:00"
+  },
+  {
+    "numero": "CHM-0013",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-07-28T10:14:00",
+    "voiture_id": "audi-a3-chine",
+    "voiture": "Audi A3 (Chine)",
+    "date_debut": "2026-08-06",
+    "heure_depart": "08:00",
+    "date_fin": "2026-08-10",
+    "heure_retour": "10:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 4,
+    "options": [],
+    "prix": {
+      "location": 44000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [],
+      "total": 44000
+    },
+    "total": 44000,
+    "caution": 120000,
+    "paye": 44000,
+    "caution_recue": false,
+    "notes": "Client fidèle",
+    "client": {
+      "nom": "Ferhat",
+      "prenom": "Omar",
+      "telephone": "0643 50 27 90",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Espèces",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-07-28T10:14:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-08-06T09:30:00"
+  },
+  {
+    "numero": "CHM-0014",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-07-28T10:33:00",
+    "voiture_id": "audi-a3-chine",
+    "voiture": "Audi A3 (Chine)",
+    "date_debut": "2026-08-01",
+    "heure_depart": "10:00",
+    "date_fin": "2026-08-03",
+    "heure_retour": "18:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 2,
+    "options": [
+      "assurance",
+      "livraison"
+    ],
+    "prix": {
+      "location": 22000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [
+        {
+          "nom": "Assurance tous risques",
+          "montant": 3000
+        },
+        {
+          "nom": "Livraison et reprise",
+          "montant": 2500
+        }
+      ],
+      "total": 27500
+    },
+    "total": 27500,
+    "caution": 120000,
+    "paye": 27500,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Amrani",
+      "prenom": "Walid",
+      "telephone": "0564 84 26 55",
+      "email": "walid.amrani@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Mastercard",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-07-28T10:33:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-08-01T09:30:00"
+  },
+  {
+    "numero": "CHM-0015",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-08-02T09:35:00",
+    "voiture_id": "audi-q3-chine",
+    "voiture": "Audi Q3 (Chine)",
+    "date_debut": "2026-08-10",
+    "heure_depart": "09:00",
+    "date_fin": "2026-08-24",
+    "heure_retour": "12:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 14,
+    "options": [
+      "assurance",
+      "siege"
+    ],
+    "prix": {
+      "location": 182000,
+      "remise": 10,
+      "montant_remise": 18200,
+      "options": [
+        {
+          "nom": "Assurance tous risques",
+          "montant": 21000
+        },
+        {
+          "nom": "Siège bébé / rehausseur",
+          "montant": 5600
+        }
+      ],
+      "total": 190400
+    },
+    "total": 190400,
+    "caution": 150000,
+    "paye": 190400,
+    "caution_recue": false,
+    "notes": "Client fidèle",
+    "client": {
+      "nom": "Bouzid",
+      "prenom": "Samira",
+      "telephone": "0723 87 37 13",
+      "email": "samira.bouzid@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "CCP",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-08-02T09:35:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-08-10T09:30:00"
+  },
+  {
+    "numero": "CHM-0016",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-08-09T11:43:00",
+    "voiture_id": "audi-a3-chine",
+    "voiture": "Audi A3 (Chine)",
+    "date_debut": "2026-08-18",
+    "heure_depart": "09:00",
+    "date_fin": "2026-09-01",
+    "heure_retour": "18:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 14,
+    "options": [
+      "assurance"
+    ],
+    "prix": {
+      "location": 154000,
+      "remise": 10,
+      "montant_remise": 15400,
+      "options": [
+        {
+          "nom": "Assurance tous risques",
+          "montant": 21000
+        }
+      ],
+      "total": 159600
+    },
+    "total": 159600,
+    "caution": 120000,
+    "paye": 159600,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Benali",
+      "prenom": "Omar",
+      "telephone": "0581 45 53 35",
+      "email": "omar.benali@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Edahabia",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-08-09T11:43:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-08-18T09:30:00"
+  },
+  {
+    "numero": "CHM-0017",
+    "statut": "terminée",
+    "source": "agence",
+    "cree_le": "2026-08-10T16:27:00",
+    "voiture_id": "changan-x5-at-plus",
+    "voiture": "Changan X5 AT Plus",
+    "date_debut": "2026-08-15",
+    "heure_depart": "09:00",
+    "date_fin": "2026-08-18",
+    "heure_retour": "10:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 3,
+    "options": [],
+    "prix": {
+      "location": 25500,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [],
+      "total": 25500
+    },
+    "total": 25500,
+    "caution": 90000,
+    "paye": 25500,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Belkacem",
+      "prenom": "Anis",
+      "telephone": "0587 79 86 83",
+      "email": "anis.belkacem@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "BaridiMob",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-08-10T16:27:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-08-15T09:30:00"
+  },
+  {
+    "numero": "CHM-0018",
+    "statut": "terminée",
+    "source": "agence",
+    "cree_le": "2026-08-11T17:36:00",
+    "voiture_id": "jetour-x70-luxury-plus",
+    "voiture": "Jetour X70 Luxury Plus",
+    "date_debut": "2026-08-19",
+    "heure_depart": "14:00",
+    "date_fin": "2026-08-29",
+    "heure_retour": "18:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 10,
+    "options": [
+      "assurance",
+      "gps"
+    ],
+    "prix": {
+      "location": 110000,
+      "remise": 10,
+      "montant_remise": 11000,
+      "options": [
+        {
+          "nom": "Assurance tous risques",
+          "montant": 15000
+        },
+        {
+          "nom": "GPS",
+          "montant": 3000
+        }
+      ],
+      "total": 117000
+    },
+    "total": 117000,
+    "caution": 120000,
+    "paye": 117000,
+    "caution_recue": false,
+    "notes": "Livraison à l'aéroport, vol AH 1234",
+    "client": {
+      "nom": "Saidi",
+      "prenom": "Yasmine",
+      "telephone": "0679 92 54 50",
+      "email": "yasmine.saidi@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Espèces",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-08-11T17:36:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-08-19T09:30:00"
+  },
+  {
+    "numero": "CHM-0019",
+    "statut": "terminée",
+    "source": "agence",
+    "cree_le": "2026-08-20T11:46:00",
+    "voiture_id": "changan-x5-at-plus",
+    "voiture": "Changan X5 AT Plus",
+    "date_debut": "2026-08-26",
+    "heure_depart": "09:00",
+    "date_fin": "2026-08-30",
+    "heure_retour": "12:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 4,
+    "options": [
+      "assurance",
+      "conducteur"
+    ],
+    "prix": {
+      "location": 34000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [
+        {
+          "nom": "Assurance tous risques",
+          "montant": 6000
+        },
+        {
+          "nom": "Conducteur supplémentaire",
+          "montant": 2000
+        }
+      ],
+      "total": 42000
+    },
+    "total": 42000,
+    "caution": 90000,
+    "paye": 42000,
+    "caution_recue": false,
+    "notes": "Client fidèle",
+    "client": {
+      "nom": "Hamidi",
+      "prenom": "Lyes",
+      "telephone": "0615 45 47 98",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Mastercard",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-08-20T11:46:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-08-26T09:30:00"
+  },
+  {
+    "numero": "CHM-0020",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-08-20T16:21:00",
+    "voiture_id": "jetour-x70-luxury-plus",
+    "voiture": "Jetour X70 Luxury Plus",
+    "date_debut": "2026-08-29",
+    "heure_depart": "09:00",
+    "date_fin": "2026-09-05",
+    "heure_retour": "10:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 7,
+    "options": [],
+    "prix": {
+      "location": 77000,
+      "remise": 10,
+      "montant_remise": 7700,
+      "options": [],
+      "total": 69300
+    },
+    "total": 69300,
+    "caution": 120000,
+    "paye": 69300,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Belkacem",
+      "prenom": "Omar",
+      "telephone": "0676 68 18 72",
+      "email": "omar.belkacem@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Chèque",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-08-20T16:21:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-08-29T09:30:00"
+  },
+  {
+    "numero": "CHM-0021",
+    "statut": "terminée",
+    "source": "agence",
+    "cree_le": "2026-08-23T11:40:00",
+    "voiture_id": "mg3",
+    "voiture": "MG MG3",
+    "date_debut": "2026-08-31",
+    "heure_depart": "10:00",
+    "date_fin": "2026-09-10",
+    "heure_retour": "10:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 10,
+    "options": [],
+    "prix": {
+      "location": 55000,
+      "remise": 10,
+      "montant_remise": 5500,
+      "options": [],
+      "total": 49500
+    },
+    "total": 49500,
+    "caution": 60000,
+    "paye": 49500,
+    "caution_recue": false,
+    "notes": "Livraison à l'aéroport, vol AH 1234",
+    "client": {
+      "nom": "Boudiaf",
+      "prenom": "Farid",
+      "telephone": "0614 86 81 93",
+      "email": "farid.boudiaf@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "CIB",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-08-23T11:40:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-08-31T09:30:00"
+  },
+  {
+    "numero": "CHM-0022",
+    "statut": "terminée",
+    "source": "agence",
+    "cree_le": "2026-08-24T14:27:00",
+    "voiture_id": "mg5",
+    "voiture": "MG MG5",
+    "date_debut": "2026-09-02",
+    "heure_depart": "09:00",
+    "date_fin": "2026-09-12",
+    "heure_retour": "12:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 10,
+    "options": [
+      "livraison"
+    ],
+    "prix": {
+      "location": 75000,
+      "remise": 10,
+      "montant_remise": 7500,
+      "options": [
+        {
+          "nom": "Livraison et reprise",
+          "montant": 2500
+        }
+      ],
+      "total": 70000
+    },
+    "total": 70000,
+    "caution": 80000,
+    "paye": 70000,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Brahimi",
+      "prenom": "Yasmine",
+      "telephone": "0593 86 68 76",
+      "email": "yasmine.brahimi@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Espèces",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-08-24T14:27:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-09-02T09:30:00"
+  },
+  {
+    "numero": "CHM-0023",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-08-24T16:39:00",
+    "voiture_id": "audi-q3-chine",
+    "voiture": "Audi Q3 (Chine)",
+    "date_debut": "2026-08-29",
+    "heure_depart": "09:00",
+    "date_fin": "2026-09-12",
+    "heure_retour": "10:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 14,
+    "options": [
+      "conducteur"
+    ],
+    "prix": {
+      "location": 182000,
+      "remise": 10,
+      "montant_remise": 18200,
+      "options": [
+        {
+          "nom": "Conducteur supplémentaire",
+          "montant": 7000
+        }
+      ],
+      "total": 170800
+    },
+    "total": 170800,
+    "caution": 150000,
+    "paye": 170800,
+    "caution_recue": false,
+    "notes": "Demande siège bébé",
+    "client": {
+      "nom": "Bouzid",
+      "prenom": "Meriem",
+      "telephone": "0528 26 94 83",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "CCP",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-08-24T16:39:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ]
+  },
+  {
+    "numero": "CHM-0024",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-08-26T09:45:00",
+    "voiture_id": "changan-x5-at-plus",
+    "voiture": "Changan X5 AT Plus",
+    "date_debut": "2026-09-02",
+    "heure_depart": "08:00",
+    "date_fin": "2026-09-09",
+    "heure_retour": "18:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 7,
+    "options": [
+      "livraison",
+      "gps"
+    ],
+    "prix": {
+      "location": 59500,
+      "remise": 10,
+      "montant_remise": 5950,
+      "options": [
+        {
+          "nom": "GPS",
+          "montant": 2100
+        },
+        {
+          "nom": "Livraison et reprise",
+          "montant": 2500
+        }
+      ],
+      "total": 58150
+    },
+    "total": 58150,
+    "caution": 90000,
+    "paye": 58150,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Belkacem",
+      "prenom": "Sarah",
+      "telephone": "0750 38 43 88",
+      "email": "sarah.belkacem@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Mastercard",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-08-26T09:45:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ]
+  },
+  {
+    "numero": "CHM-0025",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-08-28T11:54:00",
+    "voiture_id": "volkswagen-passat-pro-chine",
+    "voiture": "Volkswagen Passat Pro (Chine)",
+    "date_debut": "2026-09-05",
+    "heure_depart": "10:00",
+    "date_fin": "2026-09-08",
+    "heure_retour": "12:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 3,
+    "options": [
+      "livraison"
+    ],
+    "prix": {
+      "location": 36000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [
+        {
+          "nom": "Livraison et reprise",
+          "montant": 2500
+        }
+      ],
+      "total": 38500
+    },
+    "total": 38500,
+    "caution": 130000,
+    "paye": 38500,
+    "caution_recue": false,
+    "notes": "Livraison à l'aéroport, vol AH 1234",
+    "client": {
+      "nom": "Messaoudi",
+      "prenom": "Walid",
+      "telephone": "0760 66 27 92",
+      "email": "walid.messaoudi@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "BaridiMob",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-08-28T11:54:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-09-05T09:30:00"
+  },
+  {
+    "numero": "CHM-0026",
+    "statut": "terminée",
+    "source": "agence",
+    "cree_le": "2026-08-29T13:00:00",
+    "voiture_id": "geely-coolray-beyond-pro",
+    "voiture": "Geely Coolray Beyond Pro",
+    "date_debut": "2026-08-31",
+    "heure_depart": "10:00",
+    "date_fin": "2026-09-10",
+    "heure_retour": "12:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 10,
+    "options": [
+      "gps"
+    ],
+    "prix": {
+      "location": 90000,
+      "remise": 10,
+      "montant_remise": 9000,
+      "options": [
+        {
+          "nom": "GPS",
+          "montant": 3000
+        }
+      ],
+      "total": 84000
+    },
+    "total": 84000,
+    "caution": 100000,
+    "paye": 84000,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Meziane",
+      "prenom": "Omar",
+      "telephone": "0611 56 62 69",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "CCP",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-08-29T13:00:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-08-31T09:30:00"
+  },
+  {
+    "numero": "CHM-0027",
+    "statut": "terminée",
+    "source": "agence",
+    "cree_le": "2026-08-30T13:52:00",
+    "voiture_id": "audi-a3-chine",
+    "voiture": "Audi A3 (Chine)",
+    "date_debut": "2026-09-04",
+    "heure_depart": "14:00",
+    "date_fin": "2026-09-18",
+    "heure_retour": "10:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 14,
+    "options": [],
+    "prix": {
+      "location": 154000,
+      "remise": 10,
+      "montant_remise": 15400,
+      "options": [],
+      "total": 138600
+    },
+    "total": 138600,
+    "caution": 120000,
+    "paye": 138600,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Belkacem",
+      "prenom": "Walid",
+      "telephone": "0657 79 43 27",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "CIB",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-08-30T13:52:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 17772,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-08-30T13:52:00",
+      "par": "Samir Haddad"
+    },
+    "etat_retour": {
+      "km": 21048,
+      "carburant": "1/2",
+      "dommages": false,
+      "note": "",
+      "le": "2026-09-18T11:00:00",
+      "par": "Lila Bouzid"
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-09-04T09:30:00"
+  },
+  {
+    "numero": "CHM-0028",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-09-02T10:39:00",
+    "voiture_id": "jetour-x70-luxury-plus",
+    "voiture": "Jetour X70 Luxury Plus",
+    "date_debut": "2026-09-06",
+    "heure_depart": "08:00",
+    "date_fin": "2026-09-13",
+    "heure_retour": "10:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 7,
+    "options": [],
+    "prix": {
+      "location": 77000,
+      "remise": 10,
+      "montant_remise": 7700,
+      "options": [],
+      "total": 69300
+    },
+    "total": 69300,
+    "caution": 120000,
+    "paye": 69300,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Messaoudi",
+      "prenom": "Karim",
+      "telephone": "0550 77 15 70",
+      "email": "karim.messaoudi@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Mastercard",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-09-02T10:39:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-09-06T09:30:00"
+  },
+  {
+    "numero": "CHM-0029",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-09-02T14:05:00",
+    "voiture_id": "changan-x5-at-plus",
+    "voiture": "Changan X5 AT Plus",
+    "date_debut": "2026-09-10",
+    "heure_depart": "10:00",
+    "date_fin": "2026-09-15",
+    "heure_retour": "12:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 5,
+    "options": [
+      "assurance",
+      "conducteur"
+    ],
+    "prix": {
+      "location": 42500,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [
+        {
+          "nom": "Assurance tous risques",
+          "montant": 7500
+        },
+        {
+          "nom": "Conducteur supplémentaire",
+          "montant": 2500
+        }
+      ],
+      "total": 52500
+    },
+    "total": 52500,
+    "caution": 90000,
+    "paye": 52500,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Slimani",
+      "prenom": "Lyes",
+      "telephone": "0781 10 18 17",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Virement bancaire",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-09-02T14:05:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ]
+  },
+  {
+    "numero": "CHM-0030",
+    "statut": "terminée",
+    "source": "agence",
+    "cree_le": "2026-09-09T10:21:00",
+    "voiture_id": "volkswagen-passat-pro-chine",
+    "voiture": "Volkswagen Passat Pro (Chine)",
+    "date_debut": "2026-09-15",
+    "heure_depart": "14:00",
+    "date_fin": "2026-09-18",
+    "heure_retour": "12:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 3,
+    "options": [],
+    "prix": {
+      "location": 36000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [],
+      "total": 36000
+    },
+    "total": 36000,
+    "caution": 130000,
+    "paye": 36000,
+    "caution_recue": false,
+    "notes": "Livraison à l'aéroport, vol AH 1234",
+    "client": {
+      "nom": "Hamidi",
+      "prenom": "Bilal",
+      "telephone": "0570 22 72 99",
+      "email": "bilal.hamidi@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Visa",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-09-09T10:21:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 59183,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-09-09T10:21:00",
+      "par": "Samir Haddad"
+    },
+    "etat_retour": {
+      "km": 59675,
+      "carburant": "1/2",
+      "dommages": false,
+      "note": "",
+      "le": "2026-09-18T11:00:00",
+      "par": "Lila Bouzid"
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-09-15T09:30:00"
+  },
+  {
+    "numero": "CHM-0031",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-09-10T08:10:00",
+    "voiture_id": "mg3",
+    "voiture": "MG MG3",
+    "date_debut": "2026-09-12",
+    "heure_depart": "08:00",
+    "date_fin": "2026-09-17",
+    "heure_retour": "12:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 5,
+    "options": [],
+    "prix": {
+      "location": 27500,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [],
+      "total": 27500
+    },
+    "total": 27500,
+    "caution": 60000,
+    "paye": 27500,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Benali",
+      "prenom": "Riad",
+      "telephone": "0725 20 44 78",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "CIB",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-09-10T08:10:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 1000,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-09-10T08:10:00",
+      "par": "Samir Haddad"
+    },
+    "etat_retour": {
+      "km": 1620,
+      "carburant": "3/4",
+      "dommages": false,
+      "note": "",
+      "le": "2026-09-17T11:00:00",
+      "par": "Lila Bouzid"
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-09-12T09:30:00"
+  },
+  {
+    "numero": "CHM-0032",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-09-10T17:10:00",
+    "voiture_id": "volkswagen-passat-pro-chine",
+    "voiture": "Volkswagen Passat Pro (Chine)",
+    "date_debut": "2026-09-13",
+    "heure_depart": "09:00",
+    "date_fin": "2026-09-15",
+    "heure_retour": "12:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 2,
+    "options": [],
+    "prix": {
+      "location": 24000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [],
+      "total": 24000
+    },
+    "total": 24000,
+    "caution": 130000,
+    "paye": 24000,
+    "caution_recue": false,
+    "notes": "Livraison à l'aéroport, vol AH 1234",
+    "client": {
+      "nom": "Belkacem",
+      "prenom": "Mehdi",
+      "telephone": "0525 32 82 44",
+      "email": "mehdi.belkacem@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Virement bancaire",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-09-10T17:10:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-09-13T09:30:00"
+  },
+  {
+    "numero": "CHM-0033",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-09-12T15:49:00",
+    "voiture_id": "livan-gx3-pro",
+    "voiture": "Livan GX3 Pro",
+    "date_debut": "2026-09-14",
+    "heure_depart": "14:00",
+    "date_fin": "2026-09-16",
+    "heure_retour": "18:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 2,
+    "options": [],
+    "prix": {
+      "location": 15000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [],
+      "total": 15000
+    },
+    "total": 15000,
+    "caution": 80000,
+    "paye": 15000,
+    "caution_recue": false,
+    "notes": "Client fidèle",
+    "client": {
+      "nom": "Meziane",
+      "prenom": "Sarah",
+      "telephone": "0789 62 70 47",
+      "email": "sarah.meziane@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Mastercard",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-09-12T15:49:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 19658,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-09-12T15:49:00",
+      "par": "Samir Haddad"
+    },
+    "etat_retour": {
+      "km": 19860,
+      "carburant": "3/4",
+      "dommages": false,
+      "note": "",
+      "le": "2026-09-16T11:00:00",
+      "par": "Lila Bouzid"
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-09-14T09:30:00"
+  },
+  {
+    "numero": "CHM-0034",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-09-12T17:48:00",
+    "voiture_id": "volkswagen-passat-pro-chine",
+    "voiture": "Volkswagen Passat Pro (Chine)",
+    "date_debut": "2026-09-19",
+    "heure_depart": "10:00",
+    "date_fin": "2026-09-26",
+    "heure_retour": "12:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 7,
+    "options": [
+      "siege"
+    ],
+    "prix": {
+      "location": 84000,
+      "remise": 10,
+      "montant_remise": 8400,
+      "options": [
+        {
+          "nom": "Siège bébé / rehausseur",
+          "montant": 2800
+        }
+      ],
+      "total": 78400
+    },
+    "total": 78400,
+    "caution": 130000,
+    "paye": 78400,
+    "caution_recue": false,
+    "notes": "Client fidèle",
+    "client": {
+      "nom": "Messaoudi",
+      "prenom": "Karim",
+      "telephone": "0691 78 46 52",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Mastercard",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-09-12T17:48:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 59828,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-09-12T17:48:00",
+      "par": "Samir Haddad"
+    },
+    "etat_retour": {
+      "km": 61613,
+      "carburant": "1/2",
+      "dommages": false,
+      "note": "",
+      "le": "2026-09-26T11:00:00",
+      "par": "Lila Bouzid"
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-09-19T09:30:00"
+  },
+  {
+    "numero": "CHM-0035",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-09-15T15:59:00",
+    "voiture_id": "mg5",
+    "voiture": "MG MG5",
+    "date_debut": "2026-09-22",
+    "heure_depart": "09:00",
+    "date_fin": "2026-10-02",
+    "heure_retour": "12:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 10,
+    "options": [
+      "assurance",
+      "siege"
+    ],
+    "prix": {
+      "location": 75000,
+      "remise": 10,
+      "montant_remise": 7500,
+      "options": [
+        {
+          "nom": "Assurance tous risques",
+          "montant": 15000
+        },
+        {
+          "nom": "Siège bébé / rehausseur",
+          "montant": 4000
+        }
+      ],
+      "total": 86500
+    },
+    "total": 86500,
+    "caution": 80000,
+    "paye": 86500,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Meziane",
+      "prenom": "Sarah",
+      "telephone": "0744 73 57 22",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Mastercard",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-09-15T15:59:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 19577,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-09-15T15:59:00",
+      "par": "Samir Haddad"
+    },
+    "etat_retour": {
+      "km": 21747,
+      "carburant": "1/2",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-02T11:00:00",
+      "par": "Lila Bouzid"
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-09-22T09:30:00"
+  },
+  {
+    "numero": "CHM-0036",
+    "statut": "terminée",
+    "source": "agence",
+    "cree_le": "2026-09-17T15:04:00",
+    "voiture_id": "jetour-x70-luxury-plus",
+    "voiture": "Jetour X70 Luxury Plus",
+    "date_debut": "2026-09-25",
+    "heure_depart": "10:00",
+    "date_fin": "2026-09-29",
+    "heure_retour": "12:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 4,
+    "options": [],
+    "prix": {
+      "location": 44000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [],
+      "total": 44000
+    },
+    "total": 44000,
+    "caution": 120000,
+    "paye": 44000,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Zerrouki",
+      "prenom": "Yasmine",
+      "telephone": "0531 44 57 27",
+      "email": "yasmine.zerrouki@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Chèque",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-09-17T15:04:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 42585,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-09-17T15:04:00",
+      "par": "Samir Haddad"
+    },
+    "etat_retour": {
+      "km": 43309,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-09-29T11:00:00",
+      "par": "Lila Bouzid"
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-09-25T09:30:00"
+  },
+  {
+    "numero": "CHM-0037",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-09-19T13:35:00",
+    "voiture_id": "audi-a3-chine",
+    "voiture": "Audi A3 (Chine)",
+    "date_debut": "2026-09-26",
+    "heure_depart": "10:00",
+    "date_fin": "2026-10-01",
+    "heure_retour": "12:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 5,
+    "options": [
+      "livraison",
+      "conducteur"
+    ],
+    "prix": {
+      "location": 55000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [
+        {
+          "nom": "Conducteur supplémentaire",
+          "montant": 2500
+        },
+        {
+          "nom": "Livraison et reprise",
+          "montant": 2500
+        }
+      ],
+      "total": 60000
+    },
+    "total": 60000,
+    "caution": 120000,
+    "paye": 60000,
+    "caution_recue": false,
+    "notes": "Livraison à l'aéroport, vol AH 1234",
+    "client": {
+      "nom": "Boudiaf",
+      "prenom": "Rania",
+      "telephone": "0734 30 47 47",
+      "email": "rania.boudiaf@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Mastercard",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-09-19T13:35:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 17671,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-09-19T13:35:00",
+      "par": "Samir Haddad"
+    },
+    "etat_retour": {
+      "km": 19256,
+      "carburant": "3/4",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-01T11:00:00",
+      "par": "Lila Bouzid"
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-09-26T09:30:00"
+  },
+  {
+    "numero": "CHM-0038",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-09-22T13:48:00",
+    "voiture_id": "audi-q3-chine",
+    "voiture": "Audi Q3 (Chine)",
+    "date_debut": "2026-09-25",
+    "heure_depart": "08:00",
+    "date_fin": "2026-10-02",
+    "heure_retour": "10:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 7,
+    "options": [
+      "assurance",
+      "gps"
+    ],
+    "prix": {
+      "location": 91000,
+      "remise": 10,
+      "montant_remise": 9100,
+      "options": [
+        {
+          "nom": "Assurance tous risques",
+          "montant": 10500
+        },
+        {
+          "nom": "GPS",
+          "montant": 2100
+        }
+      ],
+      "total": 94500
+    },
+    "total": 94500,
+    "caution": 150000,
+    "paye": 94500,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Haddad",
+      "prenom": "Karim",
+      "telephone": "0694 65 35 31",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Mastercard",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-09-22T13:48:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 19090,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-09-22T13:48:00",
+      "par": "Samir Haddad"
+    },
+    "etat_retour": {
+      "km": 20343,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-02T11:00:00",
+      "par": "Lila Bouzid"
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-09-25T09:30:00"
+  },
+  {
+    "numero": "CHM-0039",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-09-25T16:10:00",
+    "voiture_id": "jetour-x70-luxury-plus",
+    "voiture": "Jetour X70 Luxury Plus",
+    "date_debut": "2026-09-30",
+    "heure_depart": "10:00",
+    "date_fin": "2026-10-10",
+    "heure_retour": "10:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 10,
+    "options": [],
+    "prix": {
+      "location": 110000,
+      "remise": 10,
+      "montant_remise": 11000,
+      "options": [],
+      "total": 99000
+    },
+    "total": 99000,
+    "caution": 120000,
+    "paye": 99000,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Lounis",
+      "prenom": "Amine",
+      "telephone": "0553 83 21 75",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Virement bancaire",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-09-25T16:10:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 42265,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-09-25T16:10:00",
+      "par": "Samir Haddad"
+    },
+    "etat_retour": {
+      "km": 43275,
+      "carburant": "3/4",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-10T11:00:00",
+      "par": "Lila Bouzid"
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-09-30T09:30:00"
+  },
+  {
+    "numero": "CHM-0040",
+    "statut": "terminée",
+    "source": "agence",
+    "cree_le": "2026-09-27T09:05:00",
+    "voiture_id": "changan-x5-at-plus",
+    "voiture": "Changan X5 AT Plus",
+    "date_debut": "2026-10-04",
+    "heure_depart": "08:00",
+    "date_fin": "2026-10-07",
+    "heure_retour": "10:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 3,
+    "options": [],
+    "prix": {
+      "location": 25500,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [],
+      "total": 25500
+    },
+    "total": 25500,
+    "caution": 90000,
+    "paye": 25500,
+    "caution_recue": false,
+    "notes": "Livraison à l'aéroport, vol AH 1234",
+    "client": {
+      "nom": "Brahimi",
+      "prenom": "Sofiane",
+      "telephone": "0514 16 49 10",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Virement bancaire",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-09-27T09:05:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 18698,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-09-27T09:05:00",
+      "par": "Samir Haddad",
+      "photos": [
+        {
+          "fichier": "5cebc606.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-09-27T09:05:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "29ec6c47.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-09-27T09:05:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "a90175c6.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-09-27T09:05:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "b376d608.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-09-27T09:05:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "cd0c4b80.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-09-27T09:05:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "54918273.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-09-27T09:05:00",
+          "par": "Samir Haddad"
+        }
+      ]
+    },
+    "etat_retour": {
+      "km": 19376,
+      "carburant": "3/4",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-07T11:00:00",
+      "par": "Lila Bouzid",
+      "photos": [
+        {
+          "fichier": "d3556248.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-07T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "fbb51cca.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-07T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "bc0f7b19.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-07T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "30596283.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-07T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "13c8ea0d.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-07T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "9943773c.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-07T11:00:00",
+          "par": "Lila Bouzid"
+        }
+      ]
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-10-04T09:30:00"
+  },
+  {
+    "numero": "CHM-0041",
+    "statut": "terminée",
+    "source": "agence",
+    "cree_le": "2026-09-28T16:38:00",
+    "voiture_id": "audi-q3-chine",
+    "voiture": "Audi Q3 (Chine)",
+    "date_debut": "2026-10-05",
+    "heure_depart": "14:00",
+    "date_fin": "2026-10-09",
+    "heure_retour": "10:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 4,
+    "options": [
+      "gps"
+    ],
+    "prix": {
+      "location": 52000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [
+        {
+          "nom": "GPS",
+          "montant": 1200
+        }
+      ],
+      "total": 53200
+    },
+    "total": 53200,
+    "caution": 150000,
+    "paye": 53200,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Khelifi",
+      "prenom": "Imane",
+      "telephone": "0520 55 96 89",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "BaridiMob",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-09-28T16:38:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 18274,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-09-28T16:38:00",
+      "par": "Samir Haddad",
+      "photos": [
+        {
+          "fichier": "dc3b1620.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-09-28T16:38:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "4d15bb03.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-09-28T16:38:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "48ee345e.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-09-28T16:38:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "4f8a2b06.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-09-28T16:38:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "58fb6ac2.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-09-28T16:38:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "3ee87d4e.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-09-28T16:38:00",
+          "par": "Samir Haddad"
+        }
+      ]
+    },
+    "etat_retour": {
+      "km": 18746,
+      "carburant": "1/2",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-09T11:00:00",
+      "par": "Lila Bouzid",
+      "photos": [
+        {
+          "fichier": "e4051d17.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-09T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "69d6d340.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-09T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "2b1b0e87.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-09T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "b992d977.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-09T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "5bfb3526.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-09T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "6914cf04.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-09T11:00:00",
+          "par": "Lila Bouzid"
+        }
+      ]
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-10-05T09:30:00"
+  },
+  {
+    "numero": "CHM-0042",
+    "statut": "terminée",
+    "source": "agence",
+    "cree_le": "2026-09-30T10:46:00",
+    "voiture_id": "mg3",
+    "voiture": "MG MG3",
+    "date_debut": "2026-10-01",
+    "heure_depart": "08:00",
+    "date_fin": "2026-10-05",
+    "heure_retour": "18:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 4,
+    "options": [
+      "conducteur",
+      "livraison"
+    ],
+    "prix": {
+      "location": 22000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [
+        {
+          "nom": "Conducteur supplémentaire",
+          "montant": 2000
+        },
+        {
+          "nom": "Livraison et reprise",
+          "montant": 2500
+        }
+      ],
+      "total": 26500
+    },
+    "total": 26500,
+    "caution": 60000,
+    "paye": 26500,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Zerrouki",
+      "prenom": "Rania",
+      "telephone": "0599 76 95 98",
+      "email": "rania.zerrouki@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Mastercard",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-09-30T10:46:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 1000,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-09-30T10:46:00",
+      "par": "Samir Haddad"
+    },
+    "etat_retour": {
+      "km": 1656,
+      "carburant": "3/4",
+      "dommages": true,
+      "note": "",
+      "le": "2026-10-05T11:00:00",
+      "par": "Lila Bouzid"
+    }
+  },
+  {
+    "numero": "CHM-0043",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-10-01T18:07:00",
+    "voiture_id": "audi-a3-chine",
+    "voiture": "Audi A3 (Chine)",
+    "date_debut": "2026-10-09",
+    "heure_depart": "10:00",
+    "date_fin": "2026-10-13",
+    "heure_retour": "12:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 4,
+    "options": [],
+    "prix": {
+      "location": 44000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [],
+      "total": 44000
+    },
+    "total": 44000,
+    "caution": 120000,
+    "paye": 44000,
+    "caution_recue": false,
+    "notes": "Livraison à l'aéroport, vol AH 1234",
+    "client": {
+      "nom": "Zerrouki",
+      "prenom": "Yacine",
+      "telephone": "0741 55 97 68",
+      "email": "yacine.zerrouki@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "BaridiMob",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-10-01T18:07:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 17859,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-01T18:07:00",
+      "par": "Samir Haddad",
+      "photos": [
+        {
+          "fichier": "91db4fba.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-01T18:07:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "4cc5c151.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-01T18:07:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "0179efa6.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-01T18:07:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "f8d6cf4c.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-01T18:07:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "647bb262.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-01T18:07:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "42464f97.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-01T18:07:00",
+          "par": "Samir Haddad"
+        }
+      ]
+    },
+    "etat_retour": {
+      "km": 18635,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-13T11:00:00",
+      "par": "Lila Bouzid",
+      "photos": [
+        {
+          "fichier": "9ef1fa74.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-13T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "4b448b8f.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-13T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "ec24f420.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-13T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "492c0acb.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-13T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "27cc6d98.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-13T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "af392a88.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-13T11:00:00",
+          "par": "Lila Bouzid"
+        }
+      ]
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-10-09T09:30:00"
+  },
+  {
+    "numero": "CHM-0044",
+    "statut": "terminée",
+    "source": "agence",
+    "cree_le": "2026-10-02T15:53:00",
+    "voiture_id": "geely-coolray-beyond-pro",
+    "voiture": "Geely Coolray Beyond Pro",
+    "date_debut": "2026-10-04",
+    "heure_depart": "08:00",
+    "date_fin": "2026-10-11",
+    "heure_retour": "12:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 7,
+    "options": [],
+    "prix": {
+      "location": 63000,
+      "remise": 10,
+      "montant_remise": 6300,
+      "options": [],
+      "total": 56700
+    },
+    "total": 56700,
+    "caution": 100000,
+    "paye": 56700,
+    "caution_recue": false,
+    "notes": "Livraison à l'aéroport, vol AH 1234",
+    "client": {
+      "nom": "Lounis",
+      "prenom": "Yacine",
+      "telephone": "0766 34 16 63",
+      "email": "yacine.lounis@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Virement bancaire",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-10-02T15:53:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 17731,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-02T15:53:00",
+      "par": "Samir Haddad",
+      "photos": [
+        {
+          "fichier": "e254dbd5.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-02T15:53:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "94021857.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-02T15:53:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "edb7980f.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-02T15:53:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "b33c6736.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-02T15:53:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "a9e7bc39.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-02T15:53:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "8b675bc1.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-02T15:53:00",
+          "par": "Samir Haddad"
+        }
+      ]
+    },
+    "etat_retour": {
+      "km": 18963,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-11T11:00:00",
+      "par": "Lila Bouzid",
+      "photos": [
+        {
+          "fichier": "8980ef61.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-11T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "b72924db.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-11T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "98b34238.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-11T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "b14303fb.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-11T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "3b88828c.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-11T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "f27f6f13.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-11T11:00:00",
+          "par": "Lila Bouzid"
+        }
+      ]
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-10-04T09:30:00"
+  },
+  {
+    "numero": "CHM-0045",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-10-05T16:44:00",
+    "voiture_id": "mg3",
+    "voiture": "MG MG3",
+    "date_debut": "2026-10-10",
+    "heure_depart": "10:00",
+    "date_fin": "2026-10-20",
+    "heure_retour": "12:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 10,
+    "options": [],
+    "prix": {
+      "location": 55000,
+      "remise": 10,
+      "montant_remise": 5500,
+      "options": [],
+      "total": 49500
+    },
+    "total": 49500,
+    "caution": 60000,
+    "paye": 49500,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Brahimi",
+      "prenom": "Imane",
+      "telephone": "0567 65 44 19",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "CIB",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-10-05T16:44:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 1000,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-05T16:44:00",
+      "par": "Samir Haddad",
+      "photos": [
+        {
+          "fichier": "97945d51.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-05T16:44:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "5c028a23.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-05T16:44:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "8f00fdb7.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-05T16:44:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "a6cc7d92.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-05T16:44:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "6e2895fe.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-05T16:44:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "8503f0d2.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-05T16:44:00",
+          "par": "Samir Haddad"
+        }
+      ]
+    },
+    "etat_retour": {
+      "km": 3670,
+      "carburant": "1/2",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-20T11:00:00",
+      "par": "Lila Bouzid",
+      "photos": [
+        {
+          "fichier": "4daf5788.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-20T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "58499c44.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-20T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "c5dfcf5c.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-20T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "45cbf3ab.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-20T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "1d43c51b.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-20T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "ce5bd3eb.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-20T11:00:00",
+          "par": "Lila Bouzid"
+        }
+      ]
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-10-10T09:30:00"
+  },
+  {
+    "numero": "CHM-0046",
+    "statut": "annulée",
+    "source": "agence",
+    "cree_le": "2026-10-06T13:59:00",
+    "voiture_id": "volkswagen-passat-pro-chine",
+    "voiture": "Volkswagen Passat Pro (Chine)",
+    "date_debut": "2026-10-12",
+    "heure_depart": "14:00",
+    "date_fin": "2026-10-15",
+    "heure_retour": "12:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 3,
+    "options": [
+      "siege"
+    ],
+    "prix": {
+      "location": 36000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [
+        {
+          "nom": "Siège bébé / rehausseur",
+          "montant": 1200
+        }
+      ],
+      "total": 37200
+    },
+    "total": 37200,
+    "caution": 130000,
+    "paye": 0,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Zerrouki",
+      "prenom": "Anis",
+      "telephone": "0790 91 27 18",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Mastercard",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-10-06T13:59:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ]
+  },
+  {
+    "numero": "CHM-0047",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-10-09T13:58:00",
+    "voiture_id": "audi-a3-chine",
+    "voiture": "Audi A3 (Chine)",
+    "date_debut": "2026-10-13",
+    "heure_depart": "14:00",
+    "date_fin": "2026-10-23",
+    "heure_retour": "12:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 10,
+    "options": [],
+    "prix": {
+      "location": 110000,
+      "remise": 10,
+      "montant_remise": 11000,
+      "options": [],
+      "total": 99000
+    },
+    "total": 99000,
+    "caution": 120000,
+    "paye": 99000,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Belkacem",
+      "prenom": "Sarah",
+      "telephone": "0638 98 54 54",
+      "email": "sarah.belkacem@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Espèces",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-10-09T13:58:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 19011,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-09T13:58:00",
+      "par": "Samir Haddad",
+      "photos": [
+        {
+          "fichier": "9fe0d866.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-09T13:58:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "0816d360.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-09T13:58:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "64f4317f.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-09T13:58:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "3195015b.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-09T13:58:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "10661c3e.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-09T13:58:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "a3ca79f6.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-09T13:58:00",
+          "par": "Samir Haddad"
+        }
+      ]
+    },
+    "etat_retour": {
+      "km": 21601,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-23T11:00:00",
+      "par": "Lila Bouzid",
+      "photos": [
+        {
+          "fichier": "7f33c9e9.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-23T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "1628f848.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-23T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "ebe7a1fb.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-23T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "ec8ff52f.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-23T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "c0d06585.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-23T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "d6158bbb.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-23T11:00:00",
+          "par": "Lila Bouzid"
+        }
+      ]
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-10-13T09:30:00"
+  },
+  {
+    "numero": "CHM-0048",
+    "statut": "terminée",
+    "source": "agence",
+    "cree_le": "2026-10-11T14:33:00",
+    "voiture_id": "livan-gx3-pro",
+    "voiture": "Livan GX3 Pro",
+    "date_debut": "2026-10-16",
+    "heure_depart": "14:00",
+    "date_fin": "2026-10-30",
+    "heure_retour": "12:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 14,
+    "options": [
+      "livraison",
+      "siege"
+    ],
+    "prix": {
+      "location": 105000,
+      "remise": 10,
+      "montant_remise": 10500,
+      "options": [
+        {
+          "nom": "Siège bébé / rehausseur",
+          "montant": 5600
+        },
+        {
+          "nom": "Livraison et reprise",
+          "montant": 2500
+        }
+      ],
+      "total": 102600
+    },
+    "total": 102600,
+    "caution": 80000,
+    "paye": 102600,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Zerrouki",
+      "prenom": "Imane",
+      "telephone": "0784 58 55 13",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Espèces",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-10-11T14:33:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 18962,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-11T14:33:00",
+      "par": "Samir Haddad",
+      "photos": [
+        {
+          "fichier": "50c57d08.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-11T14:33:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "b08bca47.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-11T14:33:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "9b10988f.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-11T14:33:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "746aae88.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-11T14:33:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "6a28b830.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-11T14:33:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "20300402.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-11T14:33:00",
+          "par": "Samir Haddad"
+        }
+      ]
+    },
+    "etat_retour": {
+      "km": 21244,
+      "carburant": "1/2",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-30T11:00:00",
+      "par": "Lila Bouzid",
+      "photos": [
+        {
+          "fichier": "2ce86409.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-30T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "0a76f0f0.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-30T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "d6632f1a.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-30T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "e6ffab6c.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-30T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "278a05a6.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-30T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "b1400022.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-30T11:00:00",
+          "par": "Lila Bouzid"
+        }
+      ]
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-10-16T09:30:00"
+  },
+  {
+    "numero": "CHM-0049",
+    "statut": "terminée",
+    "source": "agence",
+    "cree_le": "2026-10-15T18:40:00",
+    "voiture_id": "geely-coolray-beyond-pro",
+    "voiture": "Geely Coolray Beyond Pro",
+    "date_debut": "2026-10-16",
+    "heure_depart": "09:00",
+    "date_fin": "2026-10-19",
+    "heure_retour": "10:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 3,
+    "options": [],
+    "prix": {
+      "location": 27000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [],
+      "total": 27000
+    },
+    "total": 27000,
+    "caution": 100000,
+    "paye": 27000,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Lounis",
+      "prenom": "Nadia",
+      "telephone": "0634 44 69 77",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Virement bancaire",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-10-15T18:40:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 17871,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-15T18:40:00",
+      "par": "Samir Haddad",
+      "photos": [
+        {
+          "fichier": "e6823480.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-15T18:40:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "96da53a4.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-15T18:40:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "7391d59e.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-15T18:40:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "b2169a46.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-15T18:40:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "308833ba.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-15T18:40:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "43e9e011.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-15T18:40:00",
+          "par": "Samir Haddad"
+        }
+      ]
+    },
+    "etat_retour": {
+      "km": 18741,
+      "carburant": "1/2",
+      "dommages": true,
+      "note": "",
+      "le": "2026-10-19T11:00:00",
+      "par": "Lila Bouzid",
+      "photos": [
+        {
+          "fichier": "1f72c9a9.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-19T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "cb105208.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-19T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "ff16e3bd.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-19T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "8dcecf89.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-19T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "b5a44e5c.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-19T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "6e856e87.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-19T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "02e5dae3.jpg",
+          "vue": "dommage",
+          "legende": "",
+          "le": "2026-10-19T11:00:00",
+          "par": "Lila Bouzid"
+        }
+      ]
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-10-16T09:30:00"
+  },
+  {
+    "numero": "CHM-0050",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-10-16T16:29:00",
+    "voiture_id": "audi-q3-chine",
+    "voiture": "Audi Q3 (Chine)",
+    "date_debut": "2026-10-17",
+    "heure_depart": "10:00",
+    "date_fin": "2026-10-24",
+    "heure_retour": "12:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 7,
+    "options": [
+      "conducteur",
+      "siege"
+    ],
+    "prix": {
+      "location": 91000,
+      "remise": 10,
+      "montant_remise": 9100,
+      "options": [
+        {
+          "nom": "Conducteur supplémentaire",
+          "montant": 3500
+        },
+        {
+          "nom": "Siège bébé / rehausseur",
+          "montant": 2800
+        }
+      ],
+      "total": 88200
+    },
+    "total": 88200,
+    "caution": 150000,
+    "paye": 88200,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Taleb",
+      "prenom": "Anis",
+      "telephone": "0581 38 55 68",
+      "email": "anis.taleb@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Virement bancaire",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-10-16T16:29:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 17631,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-16T16:29:00",
+      "par": "Samir Haddad",
+      "photos": [
+        {
+          "fichier": "af03dfa9.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-16T16:29:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "98bf01f1.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-16T16:29:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "693bc804.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-16T16:29:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "b39322e6.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-16T16:29:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "3442aee1.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-16T16:29:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "002b1524.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-16T16:29:00",
+          "par": "Samir Haddad"
+        }
+      ]
+    },
+    "etat_retour": {
+      "km": 19563,
+      "carburant": "3/4",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-24T11:00:00",
+      "par": "Lila Bouzid",
+      "photos": [
+        {
+          "fichier": "50d9abf5.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-24T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "013af0d6.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-24T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "717519d7.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-24T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "4486722a.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-24T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "f1adea22.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-24T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "41e33fc3.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-24T11:00:00",
+          "par": "Lila Bouzid"
+        }
+      ]
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-10-17T09:30:00"
+  },
+  {
+    "numero": "CHM-0051",
+    "statut": "terminée",
+    "source": "agence",
+    "cree_le": "2026-10-17T11:56:00",
+    "voiture_id": "volkswagen-passat-pro-chine",
+    "voiture": "Volkswagen Passat Pro (Chine)",
+    "date_debut": "2026-10-20",
+    "heure_depart": "08:00",
+    "date_fin": "2026-10-22",
+    "heure_retour": "12:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 2,
+    "options": [],
+    "prix": {
+      "location": 24000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [],
+      "total": 24000
+    },
+    "total": 24000,
+    "caution": 130000,
+    "paye": 24000,
+    "caution_recue": false,
+    "notes": "Client fidèle",
+    "client": {
+      "nom": "Saidi",
+      "prenom": "Meriem",
+      "telephone": "0739 37 92 58",
+      "email": "meriem.saidi@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Visa",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-10-17T11:56:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 60021,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-17T11:56:00",
+      "par": "Samir Haddad",
+      "photos": [
+        {
+          "fichier": "c7459b09.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-17T11:56:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "9793aae3.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-17T11:56:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "09e421d6.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-17T11:56:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "38b4d630.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-17T11:56:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "38f95dfa.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-17T11:56:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "eaea706f.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-17T11:56:00",
+          "par": "Samir Haddad"
+        }
+      ]
+    },
+    "etat_retour": {
+      "km": 60493,
+      "carburant": "1/2",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-22T11:00:00",
+      "par": "Lila Bouzid",
+      "photos": [
+        {
+          "fichier": "b784eaa4.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-22T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "4af84dd1.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-22T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "a67922e9.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-22T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "4289c243.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-22T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "1076cd26.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-22T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "1e4fb440.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-22T11:00:00",
+          "par": "Lila Bouzid"
+        }
+      ]
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-10-20T09:30:00"
+  },
+  {
+    "numero": "CHM-0052",
+    "statut": "en cours",
+    "source": "site",
+    "cree_le": "2026-10-20T14:39:00",
+    "voiture_id": "mg5",
+    "voiture": "MG MG5",
+    "date_debut": "2026-10-26",
+    "heure_depart": "10:00",
+    "date_fin": "2026-10-31",
+    "heure_retour": "12:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 5,
+    "options": [],
+    "prix": {
+      "location": 37500,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [],
+      "total": 37500
+    },
+    "total": 37500,
+    "caution": 80000,
+    "paye": 37500,
+    "caution_recue": true,
+    "notes": "Demande siège bébé",
+    "client": {
+      "nom": "Meziane",
+      "prenom": "Samira",
+      "telephone": "0718 80 61 14",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "CIB",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-10-20T14:39:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 18627,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-20T14:39:00",
+      "par": "Samir Haddad",
+      "photos": [
+        {
+          "fichier": "bd8d9f7a.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-20T14:39:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "19239ba5.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-20T14:39:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "dc26b45e.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-20T14:39:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "9df5b972.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-20T14:39:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "0a7c0c32.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-20T14:39:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "de091ac6.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-20T14:39:00",
+          "par": "Samir Haddad"
+        }
+      ]
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-10-26T09:30:00"
+  },
+  {
+    "numero": "CHM-0053",
+    "statut": "en cours",
+    "source": "agence",
+    "cree_le": "2026-10-23T13:37:00",
+    "voiture_id": "volkswagen-passat-pro-chine",
+    "voiture": "Volkswagen Passat Pro (Chine)",
+    "date_debut": "2026-10-29",
+    "heure_depart": "10:00",
+    "date_fin": "2026-10-31",
+    "heure_retour": "18:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 2,
+    "options": [
+      "conducteur"
+    ],
+    "prix": {
+      "location": 24000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [
+        {
+          "nom": "Conducteur supplémentaire",
+          "montant": 1000
+        }
+      ],
+      "total": 25000
+    },
+    "total": 25000,
+    "caution": 130000,
+    "paye": 25000,
+    "caution_recue": true,
+    "notes": "Demande siège bébé",
+    "client": {
+      "nom": "Meziane",
+      "prenom": "Lyes",
+      "telephone": "0657 56 76 55",
+      "email": "lyes.meziane@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "BaridiMob",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-10-23T13:37:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 59780,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-23T13:37:00",
+      "par": "Samir Haddad",
+      "photos": [
+        {
+          "fichier": "e1ad8e75.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-23T13:37:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "df28e12d.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-23T13:37:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "f5130430.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-23T13:37:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "779a19e5.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-23T13:37:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "79fa385b.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-23T13:37:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "f3eae064.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-23T13:37:00",
+          "par": "Samir Haddad"
+        }
+      ]
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-10-29T09:30:00"
+  },
+  {
+    "numero": "CHM-0054",
+    "statut": "terminée",
+    "source": "site",
+    "cree_le": "2026-10-24T11:21:00",
+    "voiture_id": "audi-a3-chine",
+    "voiture": "Audi A3 (Chine)",
+    "date_debut": "2026-10-26",
+    "heure_depart": "09:00",
+    "date_fin": "2026-10-29",
+    "heure_retour": "18:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 3,
+    "options": [
+      "siege"
+    ],
+    "prix": {
+      "location": 33000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [
+        {
+          "nom": "Siège bébé / rehausseur",
+          "montant": 1200
+        }
+      ],
+      "total": 34200
+    },
+    "total": 34200,
+    "caution": 120000,
+    "paye": 34200,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Slimani",
+      "prenom": "Nadia",
+      "telephone": "0768 91 61 61",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "CIB",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-10-24T11:21:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 19178,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-24T11:21:00",
+      "par": "Samir Haddad",
+      "photos": [
+        {
+          "fichier": "357b9436.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-24T11:21:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "bab516d2.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-24T11:21:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "c81a46bd.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-24T11:21:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "b954399e.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-24T11:21:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "0b867dce.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-24T11:21:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "a87a7086.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-24T11:21:00",
+          "par": "Samir Haddad"
+        }
+      ]
+    },
+    "etat_retour": {
+      "km": 19550,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-29T11:00:00",
+      "par": "Lila Bouzid",
+      "photos": [
+        {
+          "fichier": "b4b43c18.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-29T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "78b31838.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-29T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "b55630cc.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-29T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "f6a93b12.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-29T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "0868e7b6.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-29T11:00:00",
+          "par": "Lila Bouzid"
+        },
+        {
+          "fichier": "e5323b51.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-29T11:00:00",
+          "par": "Lila Bouzid"
+        }
+      ]
+    }
+  },
+  {
+    "numero": "CHM-0055",
+    "statut": "en cours",
+    "source": "site",
+    "cree_le": "2026-10-25T09:54:00",
+    "voiture_id": "geely-coolray-beyond-pro",
+    "voiture": "Geely Coolray Beyond Pro",
+    "date_debut": "2026-10-27",
+    "heure_depart": "08:00",
+    "date_fin": "2026-11-01",
+    "heure_retour": "12:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 5,
+    "options": [],
+    "prix": {
+      "location": 45000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [],
+      "total": 45000
+    },
+    "total": 45000,
+    "caution": 100000,
+    "paye": 45000,
+    "caution_recue": true,
+    "notes": "",
+    "client": {
+      "nom": "Zerrouki",
+      "prenom": "Nadia",
+      "telephone": "0680 38 34 53",
+      "email": "nadia.zerrouki@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Mastercard",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-10-25T09:54:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ],
+    "etat_depart": {
+      "km": 18297,
+      "carburant": "plein",
+      "dommages": false,
+      "note": "",
+      "le": "2026-10-25T09:54:00",
+      "par": "Samir Haddad",
+      "photos": [
+        {
+          "fichier": "a31eb6a4.jpg",
+          "vue": "avant",
+          "legende": "",
+          "le": "2026-10-25T09:54:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "d2fcc93c.jpg",
+          "vue": "arriere",
+          "legende": "",
+          "le": "2026-10-25T09:54:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "ef96c446.jpg",
+          "vue": "gauche",
+          "legende": "",
+          "le": "2026-10-25T09:54:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "d584f016.jpg",
+          "vue": "droite",
+          "legende": "",
+          "le": "2026-10-25T09:54:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "3edc8971.jpg",
+          "vue": "interieur",
+          "legende": "",
+          "le": "2026-10-25T09:54:00",
+          "par": "Samir Haddad"
+        },
+        {
+          "fichier": "3eb3c77b.jpg",
+          "vue": "compteur",
+          "legende": "",
+          "le": "2026-10-25T09:54:00",
+          "par": "Samir Haddad"
+        }
+      ]
+    },
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-10-27T09:30:00"
+  },
+  {
+    "numero": "CHM-0056",
+    "statut": "confirmée",
+    "source": "site",
+    "cree_le": "2026-10-25T11:50:00",
+    "voiture_id": "audi-a3-chine",
+    "voiture": "Audi A3 (Chine)",
+    "date_debut": "2026-10-31",
+    "heure_depart": "14:00",
+    "date_fin": "2026-11-07",
+    "heure_retour": "18:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 7,
+    "options": [],
+    "prix": {
+      "location": 77000,
+      "remise": 10,
+      "montant_remise": 7700,
+      "options": [],
+      "total": 69300
+    },
+    "total": 69300,
+    "caution": 120000,
+    "paye": 0,
+    "caution_recue": false,
+    "notes": "Demande siège bébé",
+    "client": {
+      "nom": "Boudiaf",
+      "prenom": "Farid",
+      "telephone": "0620 81 98 34",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "BaridiMob",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-10-25T11:50:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ]
+  },
+  {
+    "numero": "CHM-0057",
+    "statut": "confirmée",
+    "source": "site",
+    "cree_le": "2026-10-25T13:12:00",
+    "voiture_id": "geely-coolray-beyond-pro",
+    "voiture": "Geely Coolray Beyond Pro",
+    "date_debut": "2026-11-21",
+    "heure_depart": "08:00",
+    "date_fin": "2026-11-23",
+    "heure_retour": "18:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 2,
+    "options": [
+      "assurance"
+    ],
+    "prix": {
+      "location": 18000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [
+        {
+          "nom": "Assurance tous risques",
+          "montant": 3000
+        }
+      ],
+      "total": 21000
+    },
+    "total": 21000,
+    "caution": 100000,
+    "paye": 0,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Khelifi",
+      "prenom": "Riad",
+      "telephone": "0676 62 97 52",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Espèces",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-10-25T13:12:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ]
+  },
+  {
+    "numero": "CHM-0058",
+    "statut": "confirmée",
+    "source": "site",
+    "cree_le": "2026-10-25T18:22:00",
+    "voiture_id": "volkswagen-passat-pro-chine",
+    "voiture": "Volkswagen Passat Pro (Chine)",
+    "date_debut": "2026-11-06",
+    "heure_depart": "14:00",
+    "date_fin": "2026-11-20",
+    "heure_retour": "10:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 14,
+    "options": [
+      "assurance"
+    ],
+    "prix": {
+      "location": 168000,
+      "remise": 10,
+      "montant_remise": 16800,
+      "options": [
+        {
+          "nom": "Assurance tous risques",
+          "montant": 21000
+        }
+      ],
+      "total": 172200
+    },
+    "total": 172200,
+    "caution": 130000,
+    "paye": 0,
+    "caution_recue": false,
+    "notes": "Client fidèle",
+    "client": {
+      "nom": "Belkacem",
+      "prenom": "Rania",
+      "telephone": "0612 62 84 99",
+      "email": "rania.belkacem@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Edahabia",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-10-25T18:22:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ]
+  },
+  {
+    "numero": "CHM-0059",
+    "statut": "confirmée",
+    "source": "agence",
+    "cree_le": "2026-10-26T09:01:00",
+    "voiture_id": "audi-a3-chine",
+    "voiture": "Audi A3 (Chine)",
+    "date_debut": "2026-11-24",
+    "heure_depart": "10:00",
+    "date_fin": "2026-12-04",
+    "heure_retour": "12:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 10,
+    "options": [],
+    "prix": {
+      "location": 110000,
+      "remise": 10,
+      "montant_remise": 11000,
+      "options": [],
+      "total": 99000
+    },
+    "total": 99000,
+    "caution": 120000,
+    "paye": 33000,
+    "caution_recue": false,
+    "notes": "Livraison à l'aéroport, vol AH 1234",
+    "client": {
+      "nom": "Messaoudi",
+      "prenom": "Anis",
+      "telephone": "0775 39 70 94",
+      "email": "anis.messaoudi@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Virement bancaire",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-10-26T09:01:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ]
+  },
+  {
+    "numero": "CHM-0060",
+    "statut": "confirmée",
+    "source": "site",
+    "cree_le": "2026-10-26T12:18:00",
+    "voiture_id": "audi-q3-chine",
+    "voiture": "Audi Q3 (Chine)",
+    "date_debut": "2026-11-09",
+    "heure_depart": "08:00",
+    "date_fin": "2026-11-23",
+    "heure_retour": "10:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 14,
+    "options": [],
+    "prix": {
+      "location": 182000,
+      "remise": 10,
+      "montant_remise": 18200,
+      "options": [],
+      "total": 163800
+    },
+    "total": 163800,
+    "caution": 150000,
+    "paye": 0,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Meziane",
+      "prenom": "Nadia",
+      "telephone": "0767 82 23 59",
+      "email": "nadia.meziane@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "CCP",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-10-26T12:18:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ]
+  },
+  {
+    "numero": "CHM-0061",
+    "statut": "en attente",
+    "source": "site",
+    "cree_le": "2026-10-31T03:25:35",
+    "voiture_id": "livan-gx3-pro",
+    "voiture": "Livan GX3 Pro",
+    "date_debut": "2026-11-02",
+    "heure_depart": "08:00",
+    "date_fin": "2026-11-09",
+    "heure_retour": "12:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 7,
+    "options": [
+      "conducteur",
+      "siege"
+    ],
+    "prix": {
+      "location": 52500,
+      "remise": 10,
+      "montant_remise": 5250,
+      "options": [
+        {
+          "nom": "Conducteur supplémentaire",
+          "montant": 3500
+        },
+        {
+          "nom": "Siège bébé / rehausseur",
+          "montant": 2800
+        }
+      ],
+      "total": 53550
+    },
+    "total": 53550,
+    "caution": 80000,
+    "paye": 0,
+    "caution_recue": false,
+    "notes": "Demande siège bébé",
+    "client": {
+      "nom": "Ferhat",
+      "prenom": "Karim",
+      "telephone": "0790 22 63 40",
+      "email": "karim.ferhat@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Mastercard",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-10-28T11:25:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ]
+  },
+  {
+    "numero": "CHM-0062",
+    "statut": "confirmée",
+    "source": "site",
+    "cree_le": "2026-10-28T13:05:00",
+    "voiture_id": "mg3",
+    "voiture": "MG MG3",
+    "date_debut": "2026-11-20",
+    "heure_depart": "14:00",
+    "date_fin": "2026-11-24",
+    "heure_retour": "18:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 4,
+    "options": [],
+    "prix": {
+      "location": 22000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [],
+      "total": 22000
+    },
+    "total": 22000,
+    "caution": 60000,
+    "paye": 22000,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Bouzid",
+      "prenom": "Samira",
+      "telephone": "0681 77 32 15",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Virement bancaire",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-10-28T13:05:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ]
+  },
+  {
+    "numero": "CHM-0063",
+    "statut": "confirmée",
+    "source": "agence",
+    "cree_le": "2026-10-29T12:14:00",
+    "voiture_id": "volkswagen-passat-pro-chine",
+    "voiture": "Volkswagen Passat Pro (Chine)",
+    "date_debut": "2026-11-23",
+    "heure_depart": "08:00",
+    "date_fin": "2026-12-07",
+    "heure_retour": "12:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 14,
+    "options": [],
+    "prix": {
+      "location": 168000,
+      "remise": 10,
+      "montant_remise": 16800,
+      "options": [],
+      "total": 151200
+    },
+    "total": 151200,
+    "caution": 130000,
+    "paye": 0,
+    "caution_recue": false,
+    "notes": "Client fidèle",
+    "client": {
+      "nom": "Messaoudi",
+      "prenom": "Nassim",
+      "telephone": "0659 34 96 81",
+      "email": "nassim.messaoudi@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Chèque",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-10-29T12:14:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ],
+    "contrat_signe": true,
+    "contrat_signe_le": "2026-11-23T09:30:00"
+  },
+  {
+    "numero": "CHM-0064",
+    "statut": "en attente",
+    "source": "site",
+    "cree_le": "2026-10-31T12:25:35",
+    "voiture_id": "changan-x5-at-plus",
+    "voiture": "Changan X5 AT Plus",
+    "date_debut": "2026-11-11",
+    "heure_depart": "14:00",
+    "date_fin": "2026-11-18",
+    "heure_retour": "12:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 7,
+    "options": [
+      "livraison"
+    ],
+    "prix": {
+      "location": 59500,
+      "remise": 10,
+      "montant_remise": 5950,
+      "options": [
+        {
+          "nom": "Livraison et reprise",
+          "montant": 2500
+        }
+      ],
+      "total": 56050
+    },
+    "total": 56050,
+    "caution": 90000,
+    "paye": 0,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Haddad",
+      "prenom": "Sarah",
+      "telephone": "0684 69 35 42",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Virement bancaire",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-10-29T13:06:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ]
+  },
+  {
+    "numero": "CHM-0065",
+    "statut": "en attente",
+    "source": "site",
+    "cree_le": "2026-10-30T22:25:35",
+    "voiture_id": "mg5",
+    "voiture": "MG MG5",
+    "date_debut": "2026-11-05",
+    "heure_depart": "09:00",
+    "date_fin": "2026-11-07",
+    "heure_retour": "12:00",
+    "lieu_depart": "Aéroport d'Alger Houari-Boumediene",
+    "lieu_retour": "Aéroport d'Alger Houari-Boumediene",
+    "jours": 2,
+    "options": [
+      "assurance"
+    ],
+    "prix": {
+      "location": 15000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [
+        {
+          "nom": "Assurance tous risques",
+          "montant": 3000
+        }
+      ],
+      "total": 18000
+    },
+    "total": 18000,
+    "caution": 80000,
+    "paye": 0,
+    "caution_recue": false,
+    "notes": "Livraison à l'aéroport, vol AH 1234",
+    "client": {
+      "nom": "Saidi",
+      "prenom": "Mehdi",
+      "telephone": "0620 59 49 33",
+      "email": "mehdi.saidi@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Edahabia",
+      "lieu": "agence"
+    },
+    "historique": [
+      {
+        "le": "2026-10-30T10:42:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ]
+  },
+  {
+    "numero": "CHM-0066",
+    "statut": "en attente",
+    "source": "site",
+    "cree_le": "2026-10-31T13:25:35",
+    "voiture_id": "changan-x5-at-plus",
+    "voiture": "Changan X5 AT Plus",
+    "date_debut": "2026-11-21",
+    "heure_depart": "09:00",
+    "date_fin": "2026-11-24",
+    "heure_retour": "10:00",
+    "lieu_depart": "Livraison à domicile (Alger et environs)",
+    "lieu_retour": "Livraison à domicile (Alger et environs)",
+    "jours": 3,
+    "options": [
+      "gps"
+    ],
+    "prix": {
+      "location": 25500,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [
+        {
+          "nom": "GPS",
+          "montant": 900
+        }
+      ],
+      "total": 26400
+    },
+    "total": 26400,
+    "caution": 90000,
+    "paye": 0,
+    "caution_recue": false,
+    "notes": "Demande siège bébé",
+    "client": {
+      "nom": "Saidi",
+      "prenom": "Mehdi",
+      "telephone": "0549 29 90 29",
+      "email": "",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "CIB",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-10-30T18:54:00",
+        "par": "client",
+        "action": "Réservation créée"
+      }
+    ]
+  },
+  {
+    "numero": "CHM-0067",
+    "statut": "confirmée",
+    "source": "agence",
+    "cree_le": "2026-10-31T12:29:00",
+    "voiture_id": "geely-coolray-beyond-pro",
+    "voiture": "Geely Coolray Beyond Pro",
+    "date_debut": "2026-11-17",
+    "heure_depart": "14:00",
+    "date_fin": "2026-11-20",
+    "heure_retour": "18:00",
+    "lieu_depart": "Agence Alger Centre",
+    "lieu_retour": "Agence Alger Centre",
+    "jours": 3,
+    "options": [
+      "siege",
+      "conducteur"
+    ],
+    "prix": {
+      "location": 27000,
+      "remise": 0,
+      "montant_remise": 0,
+      "options": [
+        {
+          "nom": "Conducteur supplémentaire",
+          "montant": 1500
+        },
+        {
+          "nom": "Siège bébé / rehausseur",
+          "montant": 1200
+        }
+      ],
+      "total": 29700
+    },
+    "total": 29700,
+    "caution": 100000,
+    "paye": 9900,
+    "caution_recue": false,
+    "notes": "",
+    "client": {
+      "nom": "Aouadi",
+      "prenom": "Lyes",
+      "telephone": "0543 96 63 19",
+      "email": "lyes.aouadi@gmail.com",
+      "message": ""
+    },
+    "paiement_souhaite": {
+      "mode": "Visa",
+      "lieu": "livraison"
+    },
+    "historique": [
+      {
+        "le": "2026-10-31T12:29:00",
+        "par": "Samir Haddad",
+        "action": "Réservation créée"
+      }
+    ]
+  }
+]

@@ -1,0 +1,4 @@
+Identifiant : admin
+Mot de passe : weO9nlQRuElj
+
+Vous devrez le changer à la première connexion. Supprimez ce fichier ensuite.

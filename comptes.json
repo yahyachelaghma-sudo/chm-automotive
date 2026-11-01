@@ -1,0 +1,36 @@
+[
+  {
+    "id": "4b69f1ab",
+    "nom": "Administrateur",
+    "identifiant": "admin",
+    "role": "admin",
+    "actif": true,
+    "sel": "81d4cea300997072b20102e71301e9fd",
+    "hash": "de36afba4fdedac1edffe3d7a7c80d85a3ad911ca1b419c2673135b1ba5d6e05",
+    "doit_changer": false,
+    "cree_le": "2026-10-31T16:25:35",
+    "derniere_connexion": "2026-10-31T16:28:22"
+  },
+  {
+    "id": "30634776",
+    "nom": "Samir Haddad",
+    "identifiant": "samir",
+    "role": "employe",
+    "actif": true,
+    "sel": "ba7d7521b777f83e430b2d4dc9f73152",
+    "hash": "d4ae4065e8b52c616d16deaa672835f2f4c426a01ee34be04635b57c88f12813",
+    "doit_changer": false,
+    "cree_le": "2026-10-31T16:25:35"
+  },
+  {
+    "id": "5ff9a2d9",
+    "nom": "Lila Bouzid",
+    "identifiant": "lila",
+    "role": "employe",
+    "actif": true,
+    "sel": "6259c6e5edfcfa31a57a3aff1f7aaeca",
+    "hash": "f41f6f554b59feb5659dfe7a00486e244d9e7585664f72b700f2c1fc12931cb2",
+    "doit_changer": false,
+    "cree_le": "2026-10-31T16:25:35"
+  }
+]

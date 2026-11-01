@@ -1,0 +1,22 @@
+[Unit]
+Description=CHM Automotive Location - site de location
+After=network.target
+
+[Service]
+User=chm
+Group=chm
+WorkingDirectory=/opt/chm
+Environment=HOST=127.0.0.1
+Environment=PORT=8000
+ExecStart=/usr/bin/python3 /opt/chm/serveur.py
+Restart=always
+RestartSec=3
+# Le serveur ne peut écrire que dans donnees/
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+ReadWritePaths=/opt/chm/donnees
+
+[Install]
+WantedBy=multi-user.target

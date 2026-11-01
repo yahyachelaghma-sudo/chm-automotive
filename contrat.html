@@ -77,7 +77,7 @@
         document.title = `Contrat ${r.numero} — ${r.client.prenom} ${r.client.nom}`;
         document.getElementById("titre-barre").textContent = `Contrat ${r.numero}`;
         page.innerHTML = `
-          <header><div><img src="../images/logo.jpg" alt=""></div><div><h1>Contrat de location</h1><small>N° ${echapper(r.numero)} · établi le ${dateFr(new Date().toISOString().slice(0, 10))}</small></div></header>
+          <header><div><img src="logo.jpg" alt=""></div><div><h1>Contrat de location</h1><small>N° ${echapper(r.numero)} · établi le ${dateFr(new Date().toISOString().slice(0, 10))}</small></div></header>
           <div class="grille"><div class="champ large"><span>Loueur</span><b>${echapper(agence.nom)} — ${echapper(agence.adresse)} — Tél. ${echapper(agence.telephone)}</b></div></div>
 
           <h2>Locataire</h2><div class="grille">
