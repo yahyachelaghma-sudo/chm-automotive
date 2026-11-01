@@ -1,1 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Espace employés — CHM Automotive Location</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0a0a0b">
+  <script src="theme.js"></script>
+  <link rel="icon" type="image/png" href="../images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="employe.css">
+</head>
+<body>
 
+  <!-- ========== Connexion ========== -->
+  <main id="connexion" class="connexion" hidden>
+    <section class="connexion-marque">
+      <img src="../images/logo.jpg" alt="CHM Automotive Location" class="connexion-logo"><span class="logo-mention grand" data-notr>Location</span>
+      <h1>Gérez votre agence<br><span>en toute simplicité.</span></h1>
+      <ul>
+        <li>Réservations, planning et paiements au même endroit</li>
+        <li>Dossiers clients et documents, rangés et sécurisés</li>
+        <li>Vos véhicules, vos prix et vos moyens de paiement</li>
+      </ul>
+    </section>
+    <section class="connexion-carte">
+      <select class="selecteur-theme" aria-label="Couleurs" data-notr></select>
+      <select class="selecteur-langue" aria-label="Langue" data-notr></select>
+      <form id="form-connexion" novalidate>
+        <p class="surtitre">Espace employés</p>
+        <h2>Connexion</h2>
+        <label>Identifiant
+          <input name="identifiant" autocomplete="username" autocapitalize="none" spellcheck="false" required>
+        </label>
+        <label>Mot de passe
+          <span class="champ-mdp">
+            <input name="mot_de_passe" type="password" autocomplete="current-password" required>
+            <button type="button" class="oeil" aria-label="Afficher le mot de passe" data-oeil>👁</button>
+          </span>
+        </label>
+        <p class="erreur-form" id="erreur-connexion" role="alert" hidden></p>
+        <button class="btn btn-rouge btn-large" type="submit">Se connecter</button>
+        <p class="aide-petit">Accès réservé au personnel de l'agence. Chaque action est enregistrée.</p>
+      </form>
+    </section>
+  </main>
+
+  <!-- ========== Application ========== -->
+  <div id="app" class="app" hidden>
+    <aside class="lateral" id="lateral">
+      <a href="#/tableau" class="marque"><img src="../images/logo.jpg" alt="CHM Automotive Location"><span class="logo-mention" data-notr>Location</span></a>
+      <nav id="menu" aria-label="Navigation principale"></nav>
+      <div class="lateral-bas">
+        <a class="lien-site" href="../site/" target="_blank" rel="noopener">↗ Voir le site client</a>
+        <div class="utilisateur" id="utilisateur"></div>
+      </div>
+    </aside>
+    <div class="voile" id="voile"></div>
+
+    <div class="principal">
+      <header class="barre">
+        <button class="burger" id="burger" aria-label="Menu">☰</button>
+        <h1 id="titre-page"></h1>
+        <label class="recherche-globale">
+          <span class="visuel-cache">Rechercher</span>
+          <input id="recherche-globale" type="search" placeholder="Rechercher un client, un n°, un véhicule…   /" autocomplete="off">
+        </label>
+        <select class="selecteur-theme" aria-label="Couleurs" data-notr></select>
+        <select class="selecteur-langue" aria-label="Langue" data-notr></select>
+        <button class="cloche" id="cloche" aria-label="Réservations en attente"></button>
+        <button class="btn btn-rouge" id="nouvelle-reservation">＋ <span>Nouvelle réservation</span></button>
+      </header>
+      <main id="contenu" class="contenu" tabindex="-1"></main>
+    </div>
+  </div>
+
+  <!-- ========== Panneau latéral droit (détails) ========== -->
+  <div id="tiroir" class="tiroir" hidden>
+    <div class="tiroir-fond" data-fermer-tiroir></div>
+    <aside class="tiroir-panneau" role="dialog" aria-modal="true" aria-labelledby="tiroir-titre">
+      <header class="tiroir-entete">
+        <div><h2 id="tiroir-titre"></h2><div id="tiroir-sous-titre"></div></div>
+        <button class="fermer" data-fermer-tiroir aria-label="Fermer">×</button>
+      </header>
+      <div class="tiroir-corps" id="tiroir-corps"></div>
+    </aside>
+  </div>
+
+  <!-- ========== Fenêtre (formulaires) ========== -->
+  <div id="fenetre" class="fenetre" hidden>
+    <div class="fenetre-fond" data-fermer-fenetre></div>
+    <section class="fenetre-boite" role="dialog" aria-modal="true" aria-labelledby="fenetre-titre">
+      <header class="fenetre-entete">
+        <h2 id="fenetre-titre"></h2>
+        <button class="fermer" data-fermer-fenetre aria-label="Fermer">×</button>
+      </header>
+      <div class="fenetre-corps" id="fenetre-corps"></div>
+    </section>
+  </div>
+
+  <div id="infobulle" class="infobulle" hidden></div>
+  <div id="notifications" class="notifications" aria-live="polite"></div>
+
+  <script src="traductions.js"></script>
+  <script src="langues.js"></script>
+  <script src="noyau.js"></script>
+  <script src="tableau.js"></script>
+  <script src="reservations.js"></script>
+  <script src="planning.js"></script>
+  <script src="vehicules.js"></script>
+  <script src="compta.js"></script>
+  <script src="etats.js"></script>
+  <script src="contrats.js"></script>
+  <script src="entretien.js"></script>
+  <script src="sinistres.js"></script>
+  <script src="statistiques.js"></script>
+  <script src="dossiers.js"></script>
+  <script src="reglages.js"></script>
+  <script src="demarrage.js"></script>
+</body>
+</html>
