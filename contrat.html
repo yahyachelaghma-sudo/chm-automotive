@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Contrat de location</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font: 12.5px/1.45 "Helvetica Neue", Arial, sans-serif; color: #111; background: #e9e9ec; }
+    .barre { position: sticky; top: 0; background: #0a0a0b; color: #fff; padding: 10px 20px; display: flex; gap: 14px; align-items: center; justify-content: space-between; }
+    .barre button, .barre a { background: #c1272d; color: #fff; border: 0; padding: 9px 18px; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 13px; text-decoration: none; }
+    .barre a { background: transparent; border: 1px solid #444; }
+    .page { width: 210mm; min-height: 297mm; margin: 16px auto; background: #fff; padding: 14mm 15mm; box-shadow: 0 4px 24px rgba(0,0,0,.2); }
+    header { display: flex; justify-content: space-between; align-items: center; border-bottom: 3px solid #c1272d; padding-bottom: 10px; margin-bottom: 14px; }
+    header img { height: 58px; border-radius: 4px; }
+    header div:last-child { text-align: right; }
+    header h1 { font-size: 20px; letter-spacing: .5px; text-transform: uppercase; }
+    header small { color: #555; }
+    h2 { font-size: 11px; text-transform: uppercase; letter-spacing: 1.2px; color: #c1272d; margin: 14px 0 6px; }
+    .grille { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 22px; }
+    .champ { border-bottom: 1px solid #ddd; padding: 3px 0; display: flex; gap: 8px; }
+    .champ span { color: #666; min-width: 118px; }
+    .champ b { font-weight: 600; }
+    .large { grid-column: 1 / -1; }
+    table { width: 100%; border-collapse: collapse; margin-top: 4px; }
+    td, th { border: 1px solid #ccc; padding: 5px 8px; text-align: left; }
+    th { background: #f3f3f5; font-size: 11px; }
+    td.droite, th.droite { text-align: right; }
+    .total td { font-weight: 800; background: #f3f3f5; }
+    .etat td { height: 26px; }
+    .conditions { columns: 2; column-gap: 22px; font-size: 11px; color: #333; }
+    .conditions p { break-inside: avoid; margin-bottom: 5px; }
+    .signatures { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 18px; }
+    .signature { border: 1px solid #bbb; height: 90px; border-radius: 6px; padding: 8px; color: #666; font-size: 11px; }
+    .annexe { page-break-before: always; margin-top: 24px; }
+    .photos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 6px 0 12px; }
+    .photos figure { border: 1px solid #ccc; border-radius: 4px; overflow: hidden; break-inside: avoid; }
+    .photos img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+    .photos figcaption { font-size: 10px; padding: 3px 6px; color: #555; background: #f3f3f5; }
+    footer { margin-top: 14px; text-align: center; color: #777; font-size: 10.5px; }
+    @media print { body { background: #fff; } .barre { display: none; } .page { margin: 0; box-shadow: none; width: auto; min-height: 0; padding: 0; } @page { size: A4; margin: 12mm; } }
+  </style>
+</head>
+<body>
+  <div class="barre"><a href="index.html#/reservations">← Retour</a><span id="titre-barre">Contrat de location</span><button onclick="print()">🖨 Imprimer / Enregistrer en PDF</button></div>
+  <main class="page" id="page"><p>Chargement…</p></main>
+  <script>
+    const echapper = (t) => String(t ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    const da = (n) => `${Math.round(n || 0).toLocaleString("fr-FR")} DA`;
+    const dateFr = (s) => (s ? `${s.slice(8, 10)}/${s.slice(5, 7)}/${s.slice(0, 4)}` : "");
+    const champ = (nom, valeur, large) => `<div class="champ ${large ? "large" : ""}"><span>${nom}</span><b>${echapper(valeur) || "&nbsp;"}</b></div>`;
+    const vide = (nom) => `<div class="champ"><span>${nom}</span><b>&nbsp;</b></div>`;
+
+    const VUES = { avant: "Avant", arriere: "Arrière", gauche: "Côté gauche", droite: "Côté droit", interieur: "Intérieur", compteur: "Compteur", dommage: "Dommage", autre: "Autre" };
+    // Annexe : les photos prises au départ et au retour (preuve en cas de litige)
+    const annexePhotos = (r) => {
+      const bloc = (moment, titre, e) => (e?.photos?.length ? `<h2>${titre} — ${e.km != null ? Number(e.km).toLocaleString("fr-FR") + " km" : ""}${e.dommages ? " — dommage signalé" : ""}</h2>
+        <div class="photos">${e.photos.map((p) => `<figure><img src="/api/employe/reservations/${r.numero}/photos/${moment}/${p.fichier}" alt=""><figcaption>${VUES[p.vue] ?? ""}</figcaption></figure>`).join("")}</div>` : "");
+      const html = bloc("depart", "Photos avant la prise", r.etat_depart) + bloc("retour", "Photos après le retour", r.etat_retour);
+      return html ? `<section class="annexe"><h1 style="font-size:15px;border-bottom:2px solid #c1272d;padding-bottom:6px">Annexe — Photos de l'état des lieux · contrat ${echapper(r.numero)}</h1>${html}</section>` : "";
+    };
+
+    (async () => {
+      const numero = new URLSearchParams(location.search).get("n");
+      const page = document.getElementById("page");
+      try {
+        const [reservations, dossiers, voitures, agence] = await Promise.all([
+          fetch("/api/employe/reservations").then((r) => { if (!r.ok) throw new Error("Connectez-vous d'abord à l'espace employés."); return r.json(); }),
+          fetch("/api/employe/dossiers").then((r) => r.json()), fetch("/api/employe/voitures").then((r) => r.json()), fetch("/api/agence").then((r) => r.json()),
+        ]);
+        const r = reservations.find((x) => x.numero === numero);
+        if (!r) throw new Error("Réservation introuvable.");
+        const d = dossiers.find((x) => (x.reservation_numero || "").toUpperCase() === r.numero) || dossiers.find((x) => x.telephone.replace(/\D/g, "").slice(-9) === r.client.telephone.replace(/\D/g, "").slice(-9));
+        const v = voitures.find((x) => x.id === r.voiture_id) || {};
+        const reste = Math.max(0, r.total - (r.paye || 0));
+        document.title = `Contrat ${r.numero} — ${r.client.prenom} ${r.client.nom}`;
+        document.getElementById("titre-barre").textContent = `Contrat ${r.numero}`;
+        page.innerHTML = `
+          <header><div><img src="../images/logo.jpg" alt=""></div><div><h1>Contrat de location</h1><small>N° ${echapper(r.numero)} · établi le ${dateFr(new Date().toISOString().slice(0, 10))}</small></div></header>
+          <div class="grille"><div class="champ large"><span>Loueur</span><b>${echapper(agence.nom)} — ${echapper(agence.adresse)} — Tél. ${echapper(agence.telephone)}</b></div></div>
+
+          <h2>Locataire</h2><div class="grille">
+            ${champ("Nom et prénom", `${r.client.prenom} ${r.client.nom}`)}${champ("Téléphone", r.client.telephone)}
+            ${champ("Date de naissance", d ? dateFr(d.date_naissance) : "")}${champ("Nationalité", d?.nationalite)}
+            ${champ("Adresse", d ? [d.adresse, d.ville].filter(Boolean).join(", ") : "", true)}
+            ${champ("Pièce d'identité", d ? `${d.identite_type} n° ${d.identite_numero}` : "")}${champ("Expire le", d ? dateFr(d.identite_expiration) : "")}
+            ${champ("Permis de conduire n°", d?.permis_numero)}${champ("Délivré le / par", d ? `${dateFr(d.permis_date)} · ${d.permis_pays}` : "")}
+            ${d?.conducteur2_nom ? champ("2e conducteur", `${d.conducteur2_prenom ?? ""} ${d.conducteur2_nom} — permis ${d.conducteur2_permis ?? ""}`, true) : ""}
+          </div>
+
+          <h2>Véhicule</h2><div class="grille">
+            ${champ("Véhicule", `${r.voiture} (${v.annee ?? ""}) — ${v.couleur ?? ""}`)}${champ("Immatriculation", v.immatriculation)}
+            ${champ("Assurance", [v.assurance_compagnie, v.assurance_police].filter(Boolean).join(" · "))}${champ("Gamme / catégorie", `${v.gamme ?? ""} · ${v.categorie ?? ""}`)}
+            ${champ("Boîte / carburant", `${v.boite ?? ""} · ${v.carburant ?? ""}`)}${champ("Kilométrage inclus", `${(agence.tarifs_supplementaires?.km_inclus_par_jour ?? 300) * r.jours} km (au-delà : ${da(agence.tarifs_supplementaires?.prix_km_supplementaire ?? 20)}/km)`)}
+          </div>
+
+          <h2>Période de location</h2><div class="grille">
+            ${champ("Départ", `${dateFr(r.date_debut)} à ${r.heure_depart || "____"}`)}${champ("Retour", `${dateFr(r.date_fin)} à ${r.heure_retour || "____"}`)}
+            ${champ("Lieu de départ", r.lieu_depart)}${champ("Lieu de retour", r.lieu_retour)}${champ("Durée", `${r.jours} jour(s)`)}
+          </div>
+
+          <h2>Prix</h2>
+          <table>
+            <tr><td>Location — ${r.jours} jour(s) × ${da(v.prix_par_jour)}</td><td class="droite">${da(r.prix?.location ?? r.total)}</td></tr>
+            ${r.prix?.remise ? `<tr><td>Remise ${r.prix.remise} %</td><td class="droite">− ${da(r.prix.montant_remise)}</td></tr>` : ""}
+            ${(r.prix?.options ?? []).map((o) => `<tr><td>${echapper(o.nom)}</td><td class="droite">${da(o.montant)}</td></tr>`).join("")}
+            <tr class="total"><td>Total à payer</td><td class="droite">${da(r.total)}</td></tr>
+            <tr><td>Déjà réglé (${echapper(r.paiement_souhaite?.mode ?? "")})</td><td class="droite">${da(r.paye || 0)}</td></tr>
+            <tr><td><b>Reste à payer</b></td><td class="droite"><b>${da(reste)}</b></td></tr>
+            <tr><td>Caution (rendue au retour du véhicule s'il n'y a aucun dommage)</td><td class="droite">${da(r.caution)}</td></tr>
+          </table>
+
+          <h2>État du véhicule</h2>
+          <table class="etat"><tr><th></th><th>Au départ</th><th>Au retour</th></tr>
+            <tr><td>Kilométrage</td><td>${r.etat_depart?.km != null ? r.etat_depart.km.toLocaleString("fr-FR") + " km" : ""}</td><td>${r.etat_retour?.km != null ? r.etat_retour.km.toLocaleString("fr-FR") + " km" : ""}</td></tr>
+            <tr><td>Niveau de carburant / batterie</td><td>${echapper(r.etat_depart?.carburant ?? "")}</td><td>${echapper(r.etat_retour?.carburant ?? "")}</td></tr>
+            <tr><td>Dommages et rayures existants</td><td>${echapper(r.etat_depart?.note ?? "")}</td><td>${echapper(r.etat_retour?.note ?? "")}</td></tr><tr><td>Accessoires (roue de secours, triangle, cric…)</td><td></td><td></td></tr></table>
+
+          <h2>Conditions générales</h2>
+          <div class="conditions">${(agence.conditions ?? []).map((c) => `<p><b>${echapper(c.titre)}.</b> ${echapper(c.texte)}</p>`).join("")}
+            <p><b>Responsabilité.</b> Le locataire est responsable du véhicule pendant toute la durée de la location et s'engage à le restituer dans l'état où il l'a reçu.</p></div>
+
+          <div class="signatures"><div class="signature">Le locataire<br>(précédé de « Lu et approuvé »)</div><div class="signature">Pour ${echapper(agence.nom)}</div></div>
+          ${annexePhotos(r)}
+          <footer>${echapper(agence.nom)} · ${echapper(agence.adresse)} · ${echapper(agence.telephone)} · ${echapper(agence.email)}</footer>`;
+      } catch (e) {
+        page.innerHTML = `<p><b>${echapper(e.message)}</b></p><p><a href="index.html">Ouvrir l'espace employés</a></p>`;
+      }
+    })();
+  </script>
+</body>
+</html>
