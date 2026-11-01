@@ -349,7 +349,7 @@ function ouvrirFormulaireVoiture(id) {
   const champ = (nom, etiquette, valeur, extra = "") => `<label>${etiquette}<input name="${nom}" value="${echapper(valeur ?? "")}" ${extra}></label>`;
   const corps = ouvrirFenetre(id ? `Modifier ${v.marque} ${v.modele}` : "Ajouter un véhicule", `
     <form id="form-voiture" class="formulaire-colonne" style="max-width:none" novalidate>
-      <div class="televerser"><img id="apercu-photo" src="${id ? urlPhoto(v) : "../images/logo.jpg"}" alt="">
+      <div class="televerser"><img id="apercu-photo" src="${id ? urlPhoto(v) : "logo.jpg"}" alt="">
         <div><label>Photo du véhicule<input type="file" id="fichier-photo" accept="image/jpeg,image/png,image/webp"></label><p class="aide-petit" style="margin-top:6px">JPG, PNG ou WebP · 6 Mo maximum · format paysage de préférence.</p></div></div>
 
       <h4 class="titre-groupe">Identification</h4>

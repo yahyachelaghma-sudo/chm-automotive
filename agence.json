@@ -1,0 +1,202 @@
+{
+  "nom": "CHM Automotive Location",
+  "slogan": "Citadines, SUV, électriques, 4x4 et prestige : louez en toute confiance, partout en Algérie.",
+  "telephone": "0555 12 34 56",
+  "whatsapp": "213555123456",
+  "email": "contact@chm-automotive.dz",
+  "adresse": "Boulevard Mohamed V, Alger Centre, Alger",
+  "lieux": [
+    "Agence Alger Centre",
+    "Aéroport d'Alger Houari-Boumediene",
+    "Livraison à domicile (Alger et environs)",
+    "Gare de l'Agha"
+  ],
+  "horaires": [
+    "Samedi – Jeudi : 8h00 – 20h00",
+    "Vendredi : 14h00 – 20h00",
+    "Livraison aéroport 7j/7, 24h/24 sur réservation"
+  ],
+  "reseaux": {
+    "facebook": "https://www.facebook.com/",
+    "instagram": "https://www.instagram.com/",
+    "tiktok": "https://www.tiktok.com/"
+  },
+  "age_minimum": 23,
+  "permis_annees_minimum": 2,
+  "tarifs_supplementaires": {
+    "km_inclus_par_jour": 300,
+    "prix_km_supplementaire": 20
+  },
+  "remises": [
+    {
+      "jours_min": 7,
+      "pourcentage": 10
+    },
+    {
+      "jours_min": 15,
+      "pourcentage": 15
+    },
+    {
+      "jours_min": 30,
+      "pourcentage": 25
+    }
+  ],
+  "options": [
+    {
+      "id": "assurance",
+      "nom": "Assurance tous risques",
+      "description": "Franchise réduite à zéro en cas d'accident ou de rayure : vous ne payez rien de plus.",
+      "prix": 1500,
+      "par": "jour"
+    },
+    {
+      "id": "conducteur",
+      "nom": "Conducteur supplémentaire",
+      "description": "Partagez le volant avec une deuxième personne assurée.",
+      "prix": 500,
+      "par": "jour"
+    },
+    {
+      "id": "siege",
+      "nom": "Siège bébé / rehausseur",
+      "description": "Installé et vérifié avant la remise du véhicule.",
+      "prix": 400,
+      "par": "jour"
+    },
+    {
+      "id": "livraison",
+      "nom": "Livraison et reprise",
+      "description": "Nous déposons et reprenons le véhicule à l'aéroport ou à l'adresse de votre choix.",
+      "prix": 2500,
+      "par": "location"
+    }
+  ],
+  "conditions": [
+    {
+      "titre": "Âge et permis",
+      "texte": "Avoir 23 ans minimum et un permis de conduire valide depuis au moins 2 ans."
+    },
+    {
+      "titre": "Caution",
+      "texte": "Une caution est demandée à la remise des clés (empreinte de carte, chèque ou espèces). Elle est rendue au retour du véhicule s'il n'y a pas de dommage."
+    },
+    {
+      "titre": "Kilométrage",
+      "texte": "300 km par jour sont inclus. Au-delà, chaque kilomètre est facturé 20 DA."
+    },
+    {
+      "titre": "Carburant",
+      "texte": "Le véhicule est remis avec un niveau de carburant noté sur le contrat et doit être rendu avec le même niveau."
+    },
+    {
+      "titre": "Retard",
+      "texte": "Une heure de retard est tolérée. Au-delà, une journée supplémentaire peut être facturée."
+    },
+    {
+      "titre": "Sortie du territoire",
+      "texte": "Les véhicules ne peuvent pas quitter le territoire algérien."
+    }
+  ],
+  "documents_contrat": [
+    "Permis de conduire",
+    "Carte d'identité ou passeport",
+    "Justificatif de domicile (facultatif)",
+    "Moyen de paiement pour la caution"
+  ],
+  "faq": [
+    {
+      "q": "Faut-il payer en ligne pour réserver ?",
+      "r": "Non. La réservation est gratuite. Vous choisissez ensuite comment payer : carte Visa, Mastercard, CIB ou Edahabia, BaridiMob, virement CCP ou bancaire, chèque de banque ou espèces, à l'agence, à la livraison ou en ligne."
+    },
+    {
+      "q": "Pouvez-vous livrer la voiture à l'aéroport ?",
+      "r": "Oui, à l'aéroport d'Alger ou à l'adresse de votre choix, 7 jours sur 7. Indiquez votre numéro de vol dans le message de réservation."
+    },
+    {
+      "q": "Quel est le montant de la caution ?",
+      "r": "Il dépend du véhicule : il est indiqué sur chaque fiche. La caution est rendue au retour s'il n'y a pas de dommage."
+    },
+    {
+      "q": "Puis-je annuler ma réservation ?",
+      "r": "Oui, gratuitement jusqu'à 48 heures avant le départ. Prévenez-nous simplement par téléphone ou WhatsApp."
+    },
+    {
+      "q": "Que se passe-t-il en cas de panne ou d'accident ?",
+      "r": "Appelez notre assistance, disponible 24h/24. Nous vous envoyons un dépanneur et, si besoin, un véhicule de remplacement."
+    },
+    {
+      "q": "J'ai un permis étranger, puis-je louer ?",
+      "r": "Oui, avec un permis international ou une traduction officielle de votre permis, en plus de votre passeport."
+    },
+    {
+      "q": "Le kilométrage est-il limité ?",
+      "r": "300 km par jour sont inclus, ce qui suffit pour la plupart des trajets. Au-delà, chaque kilomètre est facturé 20 DA."
+    }
+  ],
+  "avis": [],
+  "lien_avis_google": "",
+  "paiement_en_ligne_lien": "",
+  "paiement_sur_place": "À l'agence ou à la remise des clés",
+  "texte_confidentialite": "Vos documents sont envoyés uniquement à notre agence. Ils servent seulement à établir votre contrat et ne sont jamais partagés.",
+  "paiement_modes": [
+    {
+      "id": "Visa",
+      "nom": "Carte Visa",
+      "icone": "💳",
+      "type": "carte"
+    },
+    {
+      "id": "Mastercard",
+      "nom": "Carte Mastercard",
+      "icone": "💳",
+      "type": "carte"
+    },
+    {
+      "id": "CIB",
+      "nom": "Carte CIB (interbancaire)",
+      "icone": "💳",
+      "type": "carte"
+    },
+    {
+      "id": "Edahabia",
+      "nom": "Carte Edahabia (Algérie Poste)",
+      "icone": "💳",
+      "type": "carte"
+    },
+    {
+      "id": "BaridiMob",
+      "nom": "BaridiMob",
+      "icone": "📱",
+      "type": "virement"
+    },
+    {
+      "id": "CCP",
+      "nom": "Virement CCP",
+      "icone": "🏦",
+      "type": "virement"
+    },
+    {
+      "id": "Virement bancaire",
+      "nom": "Virement bancaire (RIB)",
+      "icone": "🏦",
+      "type": "virement"
+    },
+    {
+      "id": "Chèque",
+      "nom": "Chèque de banque",
+      "icone": "🧾",
+      "type": "cheque"
+    },
+    {
+      "id": "Espèces",
+      "nom": "Espèces",
+      "icone": "💵",
+      "type": "especes"
+    }
+  ],
+  "paiement_coordonnees": {
+    "BaridiMob": "",
+    "CCP": "",
+    "Virement bancaire": ""
+  }
+}

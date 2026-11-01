@@ -1,0 +1,13 @@
+# Déploiement Render : https://render.com  (New > Blueprint > choisir le dépôt GitHub)
+services:
+  - type: web
+    name: chm-automotive-location
+    runtime: python
+    plan: starter            # le disque permanent (réservations + dossiers clients) demande un plan payant
+    buildCommand: echo "rien à installer"
+    startCommand: python3 serveur.py
+    healthCheckPath: /site/
+    disk:
+      name: donnees
+      mountPath: /opt/render/project/src/donnees
+      sizeGB: 1

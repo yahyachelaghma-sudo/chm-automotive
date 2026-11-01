@@ -190,7 +190,7 @@ const memeTel = (a, b) => chiffresTel(a).slice(-9) === chiffresTel(b).slice(-9) 
 const encaisse = (r) => r.paye || 0;
 const reste = (r) => Math.max(0, (r.total || 0) - encaisse(r));
 const compteVoiture = (id) => etat.voitures.find((v) => v.id === id);
-const urlPhoto = (v) => (v?.photo ? `../images/voitures/${encodeURIComponent(v.photo)}${v.photo_v ? `?v=${v.photo_v}` : ""}` : "../images/logo.jpg");
+const urlPhoto = (v) => (v?.photo ? `../images/voitures/${encodeURIComponent(v.photo)}${v.photo_v ? `?v=${v.photo_v}` : ""}` : "logo.jpg");
 const estReservation = (r) => r.statut !== "blocage";
 const actives = () => etat.reservations.filter((r) => estReservation(r) && r.statut !== "annulée");
 const enRetard = (r) => r.statut === "en cours" && r.date_fin < aujourdhui();
