@@ -3,122 +3,484 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Espace employés — CHM Automotive Location</title>
-  <meta name="robots" content="noindex, nofollow">
+  <title>CHM Automotive Location — Location de voitures en Algérie, prix en dinars</title>
+  <meta name="description" content="Louez une voiture en Algérie : citadines, SUV, électriques, 4x4 et prestige. Prix en dinars, livraison aéroport, assistance 24/7, remises dès 7 jours. Réservation en 2 minutes.">
   <meta name="theme-color" content="#0a0a0b">
-  <script src="theme.js"></script>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CHM Automotive Location — Location de voitures en Algérie">
+  <meta property="og:description" content="Citadines, SUV, électriques, 4x4 et prestige. Prix en dinars, livraison aéroport, assistance 24/7.">
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="employe.css">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
+  <!-- ========== Bandeau d'infos ========== -->
+  <div class="infos-haut">
+    <span>📞 <a data-tel href="#"><span data-agence="telephone"></span></a></span>
+    <span>🕒 <span id="horaire-court"></span></span>
+    <span>✈️ Livraison à l'aéroport et à domicile</span>
+  </div>
 
-  <!-- ========== Connexion ========== -->
-  <main id="connexion" class="connexion" hidden>
-    <section class="connexion-marque">
-      <img src="logo.jpg" alt="CHM Automotive Location" class="connexion-logo"><span class="logo-mention grand" data-notr>Location</span>
-      <h1>Gérez votre agence<br><span>en toute simplicité.</span></h1>
-      <ul>
-        <li>Réservations, planning et paiements au même endroit</li>
-        <li>Dossiers clients et documents, rangés et sécurisés</li>
-        <li>Vos véhicules, vos prix et vos moyens de paiement</li>
-      </ul>
+  <!-- ========== Navigation ========== -->
+  <nav class="nav" id="nav">
+    <a href="#accueil" class="logo"><img src="logo-transparent.png" alt="CHM Automotive Location"><span class="logo-mention">Location</span></a>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    <div class="nav-liens" id="nav-liens">
+      <a href="#vehicules">Véhicules</a>
+      <a href="#avantages">Pourquoi nous</a>
+      <a href="#tarifs">Tarifs</a>
+      <a href="#dossier">Mon dossier</a>
+      <a href="#faq">Questions</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn-rouge btn-petit" data-tel href="#">📞 Appeler</a>
+    </div>
+  </nav>
+
+  <!-- ========== Accueil ========== -->
+  <header class="hero" id="accueil">
+    <div class="hero-fond" id="hero-fond" aria-hidden="true"></div>
+    <div class="hero-contenu">
+      <p class="surtitre">Location de voitures en Algérie</p>
+      <h1>La voiture qu'il vous faut,<br><span>au prix qui vous convient.</span></h1>
+      <p class="hero-slogan" data-agence="slogan"></p>
+      <ul class="hero-points" id="hero-points"></ul>
+      <div class="hero-cta">
+        <a class="btn btn-rouge btn-grand" href="#vehicules">Voir les véhicules</a>
+        <a class="btn btn-whatsapp btn-grand" data-whatsapp href="#" target="_blank" rel="noopener">💬 Réserver sur WhatsApp</a>
+      </div>
+    </div>
+
+    <form id="recherche" class="recherche">
+      <label class="large">Lieu de prise en charge
+        <select name="lieu" data-lieux></select>
+      </label>
+      <label>Départ <input type="date" name="debut" required></label>
+      <label>Heure <input type="time" name="heure_debut" value="10:00"></label>
+      <label>Retour <input type="date" name="fin" required></label>
+      <label>Heure <input type="time" name="heure_fin" value="10:00"></label>
+      <button type="submit" class="btn btn-rouge">Voir les disponibilités</button>
+    </form>
+    <p class="hero-legende" id="hero-legende"></p>
+  </header>
+
+  <main>
+    <!-- ========== Confiance ========== -->
+    <section class="confiance" id="confiance"></section>
+
+    <!-- ========== Offre ========== -->
+    <section class="offre reveal" id="offre" hidden></section>
+
+    <!-- ========== Catégories ========== -->
+    <section class="bloc reveal" id="categories-bloc">
+      <div class="titre-section">
+        <p class="surtitre">Pour tous les besoins</p>
+        <h2>Choisissez votre type de véhicule</h2>
+      </div>
+      <div class="tuiles" id="tuiles"></div>
     </section>
-    <section class="connexion-carte">
-      <select class="selecteur-theme" aria-label="Couleurs" data-notr></select>
-      <select class="selecteur-langue" aria-label="Langue" data-notr></select>
-      <form id="form-connexion" novalidate>
-        <p class="surtitre">Espace employés</p>
-        <h2>Connexion</h2>
-        <label>Identifiant
-          <input name="identifiant" autocomplete="username" autocapitalize="none" spellcheck="false" required>
-        </label>
-        <label>Mot de passe
-          <span class="champ-mdp">
-            <input name="mot_de_passe" type="password" autocomplete="current-password" required>
-            <button type="button" class="oeil" aria-label="Afficher le mot de passe" data-oeil>👁</button>
-          </span>
-        </label>
-        <p class="erreur-form" id="erreur-connexion" role="alert" hidden></p>
-        <button class="btn btn-rouge btn-large" type="submit">Se connecter</button>
-        <p class="aide-petit">Accès réservé au personnel de l'agence. Chaque action est enregistrée.</p>
-      </form>
+
+    <!-- ========== Catalogue ========== -->
+    <section id="vehicules" class="bloc">
+      <div class="titre-section">
+        <p class="surtitre">Notre flotte</p>
+        <h2>Trouvez votre véhicule</h2>
+        <p id="info-dates" class="info-dates">Choisissez vos dates plus haut pour voir les véhicules disponibles et le prix total.</p>
+      </div>
+
+      <div class="filtres">
+        <input id="recherche-texte" type="search" placeholder="🔍 Rechercher une marque, un modèle…" aria-label="Rechercher">
+        <div class="filtres-droite">
+          <select id="filtre-gamme" aria-label="Gamme"><option value="">Toutes les gammes</option></select>
+          <select id="filtre-boite" aria-label="Boîte de vitesses">
+            <option value="">Toutes les boîtes</option>
+            <option>Manuelle</option>
+            <option>Automatique</option>
+          </select>
+          <select id="filtre-carburant" aria-label="Carburant"><option value="">Tous les carburants</option></select>
+          <select id="filtre-places" aria-label="Places">
+            <option value="">Toutes les places</option>
+            <option value="5">5 places et plus</option>
+            <option value="7">7 places et plus</option>
+          </select>
+          <select id="tri" aria-label="Trier">
+            <option value="prix-asc">Prix croissant</option>
+            <option value="prix-desc">Prix décroissant</option>
+            <option value="annee-desc">Plus récents</option>
+          </select>
+        </div>
+      </div>
+      <div id="categories" class="puces"></div>
+      <label class="budget">Budget maximum : <strong id="budget-valeur"></strong>
+        <input type="range" id="budget" step="500" aria-label="Budget maximum par jour">
+      </label>
+
+      <p class="compteur" id="compteur" aria-live="polite"></p>
+      <div id="grille" class="grille"></div>
+      <div class="plus"><button type="button" class="btn btn-contour" id="voir-plus" hidden>Afficher plus de véhicules</button></div>
+    </section>
+
+    <!-- ========== Avantages ========== -->
+    <section id="avantages" class="bloc reveal">
+      <div class="titre-section">
+        <p class="surtitre">Pourquoi nous choisir</p>
+        <h2>Louer sans mauvaise surprise</h2>
+      </div>
+      <div class="avantages" id="liste-avantages"></div>
+    </section>
+
+    <!-- ========== Étapes ========== -->
+    <section class="bloc reveal">
+      <div class="titre-section">
+        <p class="surtitre">Simple et rapide</p>
+        <h2>Réservez en 3 étapes</h2>
+      </div>
+      <div class="etapes">
+        <div class="etape"><span>01</span><h3>Choisissez</h3><p>Vos dates, votre lieu et le véhicule qui vous convient. Le prix total s'affiche tout de suite.</p></div>
+        <div class="etape"><span>02</span><h3>Réservez</h3><p>Ajoutez vos options et vos coordonnées. Rien à payer pour réserver : vous choisissez comment et où vous réglez.</p></div>
+        <div class="etape"><span>03</span><h3>Roulez</h3><p>Nous vous appelons pour confirmer, puis vous récupérez les clés à l'agence, à l'aéroport ou chez vous.</p></div>
+      </div>
+    </section>
+
+    <!-- ========== Tarifs ========== -->
+    <section id="tarifs" class="bloc reveal">
+      <div class="titre-section">
+        <p class="surtitre">Tarifs transparents</p>
+        <h2>Plus vous louez longtemps, moins vous payez</h2>
+        <p class="info-dates">Prix à partir de, par catégorie, en dinars algériens. Les remises sont appliquées automatiquement.</p>
+      </div>
+      <div class="tableau-tarifs"><table><thead id="tarifs-tete"></thead><tbody id="tarifs-corps"></tbody></table></div>
+
+      <h3 class="sous-titre">Options pour un voyage sans souci</h3>
+      <div id="liste-services" class="services"></div>
+    </section>
+
+    <!-- ========== Avis (n'apparaît que s'il y en a) ========== -->
+    <section id="avis" class="bloc reveal" hidden>
+      <div class="titre-section">
+        <p class="surtitre">Ils nous ont fait confiance</p>
+        <h2>Avis de nos clients</h2>
+      </div>
+      <div class="avis" id="liste-avis"></div>
+      <p class="centre-texte"><a class="btn btn-contour" id="lien-avis" href="#" target="_blank" rel="noopener" hidden>Voir tous les avis sur Google</a></p>
+    </section>
+
+    <!-- ========== Conditions ========== -->
+    <section id="conditions" class="bloc reveal">
+      <div class="titre-section">
+        <p class="surtitre">Avant de partir</p>
+        <h2>Conditions de location</h2>
+      </div>
+      <div class="documents" id="liste-documents"></div>
+      <div id="liste-conditions" class="conditions"></div>
+    </section>
+
+    <!-- ========== Dossier du client ========== -->
+    <section id="dossier" class="bloc reveal">
+      <div class="titre-section">
+        <p class="surtitre">Gagnez du temps</p>
+        <h2>Déposez votre dossier en ligne</h2>
+        <p class="info-dates">Envoyez vos informations et les photos de vos documents avant de venir : la remise des clés sera beaucoup plus rapide. Votre dossier est reçu directement par notre équipe.</p>
+      </div>
+
+      <div class="dossier-grille">
+        <aside class="dossier-aide">
+          <h3>📋 Ce qu'il vous faut</h3>
+          <ul class="liste-coches">
+            <li><strong>Permis de conduire</strong> valide depuis au moins <span id="aide-permis">2</span> ans (recto et verso)</li>
+            <li><strong>Carte d'identité</strong> (recto et verso) <em>ou passeport</em> (page de la photo)</li>
+            <li>Un <strong>justificatif de domicile</strong> <small>(facultatif)</small></li>
+            <li>Si votre permis n'est pas algérien : <strong>permis international</strong> ou traduction</li>
+            <li>Avoir <strong><span id="aide-age">23</span> ans</strong> ou plus</li>
+          </ul>
+          <h3>✍️ Les informations demandées</h3>
+          <ul class="liste-simple">
+            <li>Identité : nom, prénom, date de naissance, nationalité</li>
+            <li>Contact : téléphone, email, adresse</li>
+            <li>Pièce d'identité : numéro et date d'expiration</li>
+            <li>Permis : numéro, date d'obtention, pays de délivrance</li>
+            <li>Votre numéro de réservation, si vous en avez une</li>
+          </ul>
+          <h3>📷 Conseils pour les photos</h3>
+          <ul class="liste-simple">
+            <li>Bonne lumière, document entier visible, sans reflet</li>
+            <li>Texte bien lisible</li>
+            <li>Photo (JPG, PNG) ou PDF — 8 Mo maximum par fichier</li>
+          </ul>
+          <p class="confidentialite">🔒 <span id="texte-confidentialite"></span></p>
+        </aside>
+
+        <div class="dossier-carte">
+          <form id="form-dossier" novalidate>
+            <fieldset>
+              <legend><span>1</span> Vos informations</legend>
+              <div class="ligne">
+                <label>Nom * <input name="nom" required autocomplete="family-name"></label>
+                <label>Prénom * <input name="prenom" required autocomplete="given-name"></label>
+              </div>
+              <div class="ligne">
+                <label>Date de naissance * <input name="date_naissance" type="date" required autocomplete="bday" data-passe></label>
+                <label>Nationalité * <input name="nationalite" required value="Algérienne"></label>
+              </div>
+              <div class="ligne">
+                <label>Téléphone * <input name="telephone" type="tel" required autocomplete="tel" placeholder="05 XX XX XX XX"></label>
+                <label>Email <input name="email" type="email" autocomplete="email"></label>
+              </div>
+              <div class="ligne">
+                <label>Adresse * <input name="adresse" required autocomplete="street-address"></label>
+                <label>Ville <input name="ville" autocomplete="address-level2"></label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend><span>2</span> Pièce d'identité</legend>
+              <div class="ligne ligne3">
+                <label>Type * <select name="identite_type"><option value="CNI">Carte d'identité (CNI)</option><option value="Passeport">Passeport</option></select></label>
+                <label>Numéro * <input name="identite_numero" required></label>
+                <label>Date d'expiration * <input name="identite_expiration" type="date" required></label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend><span>3</span> Permis de conduire</legend>
+              <div class="ligne ligne3">
+                <label>Numéro de permis * <input name="permis_numero" required></label>
+                <label>Date d'obtention * <input name="permis_date" type="date" required data-passe></label>
+                <label>Délivré par * <select name="permis_pays"><option>Algérie</option><option value="Autre pays">Autre pays</option></select></label>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend><span>4</span> Vos documents</legend>
+              <div id="depots" class="depots"></div>
+            </fieldset>
+
+            <fieldset>
+              <legend><span>5</span> Votre réservation</legend>
+              <label>Numéro de réservation <small>(facultatif — reçu après votre réservation)</small> <input name="reservation_numero" placeholder="CHM-0012" maxlength="8"></label>
+              <details class="deuxieme">
+                <summary>➕ Ajouter un 2e conducteur (facultatif)</summary>
+                <div class="ligne ligne3">
+                  <label>Nom <input name="conducteur2_nom"></label>
+                  <label>Prénom <input name="conducteur2_prenom"></label>
+                  <label>N° de permis <input name="conducteur2_permis"></label>
+                </div>
+                <p class="aide-petit">Le 2e conducteur devra aussi présenter son permis et sa pièce d'identité à la remise des clés.</p>
+              </details>
+            </fieldset>
+
+            <div id="dossier-avertissements" class="avertissement" hidden></div>
+            <label class="case">
+              <input type="checkbox" name="consentement">
+              <span>J'accepte que <span data-agence="nom"></span> utilise ces informations et ces documents pour établir mon contrat de location, et les conserve de manière sécurisée.</span>
+            </label>
+            <ul id="dossier-erreurs" class="erreurs" hidden></ul>
+            <button type="submit" class="btn btn-rouge btn-large" id="dossier-envoyer">📤 Envoyer mon dossier</button>
+            <div class="envoi" id="dossier-progression" hidden>
+              <div class="envoi-barre"><span></span></div>
+              <p></p>
+            </div>
+          </form>
+
+          <div class="dossier-succes" id="dossier-succes" hidden>
+            <div class="succes-icone">✓</div>
+            <h3>Dossier envoyé !</h3>
+            <p>Votre numéro de dossier : <strong id="dossier-numero"></strong></p>
+            <p>Notre équipe va le vérifier et vous contacter si une pièce manque. Gardez ce numéro : il peut vous être demandé.</p>
+            <a class="btn btn-whatsapp btn-large" id="dossier-whatsapp" target="_blank" rel="noopener">💬 Prévenir l'agence sur WhatsApp</a>
+            <a class="btn btn-contour" href="#vehicules">Choisir mon véhicule</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FAQ ========== -->
+    <section id="faq" class="bloc reveal">
+      <div class="titre-section">
+        <p class="surtitre">Questions fréquentes</p>
+        <h2>On répond à vos questions</h2>
+      </div>
+      <div id="liste-faq" class="faq"></div>
+    </section>
+
+    <!-- ========== Contact ========== -->
+    <section id="contact" class="bloc contact reveal">
+      <div>
+        <p class="surtitre">Contact</p>
+        <h2>Une question ? Parlons-en.</h2>
+        <p class="contact-texte">Notre équipe vous répond par téléphone et WhatsApp, et vous aide à choisir le véhicule adapté à votre budget.</p>
+        <div class="contact-boutons">
+          <a class="btn btn-rouge" data-tel href="#">📞 Appeler</a>
+          <a class="btn btn-whatsapp" data-whatsapp href="#" target="_blank" rel="noopener">💬 WhatsApp</a>
+        </div>
+        <div class="contact-infos">
+          <div><h4>Téléphone</h4><p data-agence="telephone"></p></div>
+          <div><h4>Email</h4><p data-agence="email"></p></div>
+          <div><h4>Adresse</h4><p data-agence="adresse"></p></div>
+          <div><h4>Horaires</h4><div id="horaires"></div></div>
+        </div>
+      </div>
+      <div class="carte-bloc"><iframe id="carte" title="Plan d'accès à l'agence" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
     </section>
   </main>
 
-  <!-- ========== Application ========== -->
-  <div id="app" class="app" hidden>
-    <aside class="lateral" id="lateral">
-      <a href="#/tableau" class="marque"><img src="logo.jpg" alt="CHM Automotive Location"><span class="logo-mention" data-notr>Location</span></a>
-      <nav id="menu" aria-label="Navigation principale"></nav>
-      <div class="lateral-bas">
-        <a class="lien-site" href="../site/" target="_blank" rel="noopener">↗ Voir le site client</a>
-        <div class="utilisateur" id="utilisateur"></div>
+  <footer>
+    <div class="footer-haut">
+      <div>
+        <img src="logo-transparent.png" alt="CHM Automotive Location" class="footer-logo"><p class="logo-mention-pied">Location de voitures</p>
+        <p data-agence="slogan"></p>
       </div>
-    </aside>
-    <div class="voile" id="voile"></div>
+      <div>
+        <h4>Navigation</h4>
+        <a href="#vehicules">Véhicules</a>
+        <a href="#tarifs">Tarifs</a>
+        <a href="#conditions">Conditions</a>
+        <a href="#dossier">Déposer mon dossier</a>
+        <a href="#faq">Questions</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div>
+        <h4>Suivez-nous</h4>
+        <div id="reseaux" class="reseaux"></div>
+      </div>
+    </div>
+    <div class="footer-bas">
+      <p>© <span id="annee"></span> CHM Automotive Location — Tous droits réservés.</p>
+      <button type="button" class="lien" id="ouvrir-credits">Crédits photos</button>
+    </div>
+  </footer>
 
-    <div class="principal">
-      <header class="barre">
-        <button class="burger" id="burger" aria-label="Menu">☰</button>
-        <h1 id="titre-page"></h1>
-        <label class="recherche-globale">
-          <span class="visuel-cache">Rechercher</span>
-          <input id="recherche-globale" type="search" placeholder="Rechercher un client, un n°, un véhicule…   /" autocomplete="off">
-        </label>
-        <select class="selecteur-theme" aria-label="Couleurs" data-notr></select>
-        <select class="selecteur-langue" aria-label="Langue" data-notr></select>
-        <button class="cloche" id="cloche" aria-label="Réservations en attente"></button>
-        <button class="btn btn-rouge" id="nouvelle-reservation">＋ <span>Nouvelle réservation</span></button>
-      </header>
-      <main id="contenu" class="contenu" tabindex="-1"></main>
+  <!-- ========== Boutons flottants ========== -->
+  <a class="whatsapp-flottant" data-whatsapp href="#" target="_blank" rel="noopener" aria-label="Écrire sur WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6c-2 0-4-.6-5.7-1.6l-.4-.2-3.9 1 1-3.8-.3-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4 14.6 14.6 0 0 0 5.6 5c2.1.9 2.9 1 4 .8.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5l-.6-.3Z"/></svg>
+  </a>
+  <div class="barre-mobile">
+    <a data-tel href="#">📞 Appeler</a>
+    <a data-whatsapp href="#" target="_blank" rel="noopener">💬 WhatsApp</a>
+    <a class="principal" href="#vehicules">🚗 Réserver</a>
+  </div>
+
+  <!-- ========== Fiche d'un véhicule ========== -->
+  <div id="modale-fiche" class="modale" hidden>
+    <div class="modale-contenu fiche">
+      <button class="fermer" data-fermer aria-label="Fermer">×</button>
+      <div id="fiche-contenu"></div>
     </div>
   </div>
 
-  <!-- ========== Panneau latéral droit (détails) ========== -->
-  <div id="tiroir" class="tiroir" hidden>
-    <div class="tiroir-fond" data-fermer-tiroir></div>
-    <aside class="tiroir-panneau" role="dialog" aria-modal="true" aria-labelledby="tiroir-titre">
-      <header class="tiroir-entete">
-        <div><h2 id="tiroir-titre"></h2><div id="tiroir-sous-titre"></div></div>
-        <button class="fermer" data-fermer-tiroir aria-label="Fermer">×</button>
-      </header>
-      <div class="tiroir-corps" id="tiroir-corps"></div>
-    </aside>
+  <!-- ========== Réservation ========== -->
+  <div id="modale" class="modale" hidden>
+    <div class="modale-contenu reservation">
+      <button class="fermer" data-fermer aria-label="Fermer">×</button>
+
+      <aside class="recap">
+        <img id="recap-photo" alt="">
+        <div class="recap-corps">
+          <div id="dispo-resume" class="dispo-resume" role="status"></div>
+          <p class="surtitre" id="recap-categorie"></p>
+          <h3 id="recap-titre"></h3>
+          <div id="recap-caracteristiques" class="caracteristiques"></div>
+          <div id="recap-prix" class="recap-prix"></div>
+        </div>
+      </aside>
+
+      <form id="formulaire" novalidate>
+        <div id="etape-formulaire">
+          <h3 class="etape-titre"><span>1</span> Dates et lieux</h3>
+          <div class="ligne">
+            <label>Départ <input name="date_debut" type="date" required></label>
+            <label>Heure <input name="heure_depart" type="time" value="10:00"></label>
+          </div>
+          <div class="ligne">
+            <label>Retour <input name="date_fin" type="date" required></label>
+            <label>Heure <input name="heure_retour" type="time" value="10:00"></label>
+          </div>
+          <div class="ligne">
+            <label>Prise en charge <select name="lieu_depart" data-lieux></select></label>
+            <label>Restitution <select name="lieu_retour" data-lieux></select></label>
+          </div>
+
+          <!-- Disponibilité : vérifiée AVANT que le client saisisse ses informations -->
+          <div id="disponibilite" class="dispo dispo-info" role="status" aria-live="polite"></div>
+
+          <div id="suite-reservation" hidden>
+          <h3 class="etape-titre"><span>2</span> Options</h3>
+          <div id="options" class="options"></div>
+
+          <h3 class="etape-titre"><span>3</span> Vos informations</h3>
+          <div class="ligne">
+            <label>Nom * <input name="nom" required autocomplete="family-name"></label>
+            <label>Prénom * <input name="prenom" required autocomplete="given-name"></label>
+          </div>
+          <div class="ligne">
+            <label>Téléphone * <input name="telephone" type="tel" required placeholder="05 XX XX XX XX" autocomplete="tel"></label>
+            <label>Email <input name="email" type="email" autocomplete="email"></label>
+          </div>
+          <label>Message (vol, adresse de livraison…) <textarea name="message" rows="2"></textarea></label>
+          <h3 class="etape-titre"><span>4</span> Paiement</h3>
+          <p class="aide-paiement">Comment souhaitez-vous payer ?</p>
+          <div id="paiement-modes" class="options"></div>
+          <p class="aide-paiement">Où souhaitez-vous payer ?</p>
+          <div id="paiement-lieux" class="options"></div>
+          <p class="rassurant" id="paiement-aide">🔒 Nous ne demandons jamais votre numéro de carte sur ce site.</p>
+          <label class="case">
+            <input type="checkbox" name="conditions_acceptees">
+            <span>J'ai 23 ans ou plus, un permis de plus de 2 ans, et j'accepte les <a href="#conditions" data-fermer>conditions de location</a>.</span>
+          </label>
+
+          <button type="submit" class="btn btn-rouge btn-large">Réserver maintenant</button>
+
+          <p id="message" class="message"></p>
+          </div>
+        </div>
+
+        <div id="etape-succes" class="succes" hidden>
+          <div class="succes-icone">✓</div>
+          <h3>Réservation enregistrée !</h3>
+          <p>Votre numéro : <strong id="succes-numero"></strong></p>
+          <p id="succes-texte"></p>
+          <div id="succes-paiement" class="succes-paiement" hidden></div>
+          <a class="btn btn-whatsapp btn-large" id="succes-whatsapp" target="_blank" rel="noopener">Confirmer sur WhatsApp</a>
+          <button type="button" class="btn btn-rouge btn-large" id="succes-dossier">📁 Déposer mon dossier maintenant</button>
+          <button type="button" class="btn btn-contour" data-fermer>Fermer</button>
+        </div>
+      </form>
+    </div>
   </div>
 
-  <!-- ========== Fenêtre (formulaires) ========== -->
-  <div id="fenetre" class="fenetre" hidden>
-    <div class="fenetre-fond" data-fermer-fenetre></div>
-    <section class="fenetre-boite" role="dialog" aria-modal="true" aria-labelledby="fenetre-titre">
-      <header class="fenetre-entete">
-        <h2 id="fenetre-titre"></h2>
-        <button class="fermer" data-fermer-fenetre aria-label="Fermer">×</button>
-      </header>
-      <div class="fenetre-corps" id="fenetre-corps"></div>
-    </section>
+  <!-- ========== Crédits photos ========== -->
+  <div id="modale-credits" class="modale" hidden>
+    <div class="modale-contenu credits">
+      <button class="fermer" data-fermer aria-label="Fermer">×</button>
+      <h3>Crédits photos</h3>
+      <p>Photos des véhicules issues de Wikimedia Commons, utilisées selon leur licence.</p>
+      <ul id="liste-credits"></ul>
+    </div>
   </div>
 
-  <div id="infobulle" class="infobulle" hidden></div>
-  <div id="notifications" class="notifications" aria-live="polite"></div>
+  <!-- ========== Assistant de chat ========== -->
+  <button type="button" class="chat-bouton" id="chat-ouvrir" aria-label="Poser une question à l'assistant"><span class="chat-icone">💬</span><span class="chat-libelle">Une question ?</span></button>
+  <section class="chat" id="chat" role="dialog" aria-label="Assistant" hidden>
+    <header class="chat-entete">
+      <img src="logo-transparent.png" alt="">
+      <div><strong>Assistant CHM Automotive Location</strong><small id="chat-mode">En ligne</small></div>
+      <button type="button" id="chat-fermer" aria-label="Fermer le chat">×</button>
+    </header>
+    <div class="chat-messages" id="chat-messages" aria-live="polite"></div>
+    <div class="chat-suggestions" id="chat-suggestions"></div>
+    <form class="chat-saisie" id="chat-form" autocomplete="off">
+      <input id="chat-texte" maxlength="500" placeholder="Posez votre question…" aria-label="Votre message">
+      <button type="submit" class="btn btn-rouge" aria-label="Envoyer">➤</button>
+    </form>
+    <footer class="chat-pied">
+      <a data-whatsapp href="#" target="_blank" rel="noopener">💬 Parler à un conseiller</a>
+      <a href="#dossier" data-chat-aller>📁 Déposer mon dossier</a>
+    </footer>
+    <p class="chat-avertissement">Réponses données à titre indicatif : l'agence confirme tout par téléphone.</p>
+  </section>
 
-  <script src="traductions.js"></script>
-  <script src="langues.js"></script>
-  <script src="noyau.js"></script>
-  <script src="tableau.js"></script>
-  <script src="reservations.js"></script>
-  <script src="planning.js"></script>
-  <script src="vehicules.js"></script>
-  <script src="compta.js"></script>
-  <script src="etats.js"></script>
-  <script src="contrats.js"></script>
-  <script src="entretien.js"></script>
-  <script src="sinistres.js"></script>
-  <script src="statistiques.js"></script>
-  <script src="dossiers.js"></script>
-  <script src="reglages.js"></script>
-  <script src="demarrage.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
